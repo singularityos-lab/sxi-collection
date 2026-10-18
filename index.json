@@ -2,7 +2,7 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 2,
+  "sequence": 3,
   "generated": "2026-10-18T05:18:58Z",
   "apps": [
     {
@@ -10,7 +10,7 @@
       "name": "Singularity Demo",
       "summary": "Every widget of the Singularity toolkit in one window",
       "description": "A tour of the libsingularity widgets, styles and motion, useful to see what the toolkit offers and to try it while building apps.",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.demo.svg",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.demo.png",
       "categories": [
         "Development"
       ],
