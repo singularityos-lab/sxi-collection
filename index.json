@@ -2,9 +2,154 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 3,
-  "generated": "2026-10-18T05:18:58Z",
+  "sequence": 42,
+  "generated": "2026-10-18T09:56:36Z",
   "apps": [
+    {
+      "id": "dev.sinty.atelier",
+      "name": "Atelier",
+      "summary": "Sketch, make patterns, grade sizes and prepare tech packs",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.atelier.png",
+      "categories": [
+        "Graphics",
+        "VectorGraphics",
+        "Engineering"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-atelier",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.atelier-1/dev.sinty.atelier-1.sxi",
+          "size": 1470464,
+          "sha256": "551ea4e822703aa3c3bada6b1b4d69a4fb87587abfac4305e6ae00dd4a0503ae",
+          "verity": "e789cd2141265ee4b00839fe83e961e0042ed5c038bedfa8a3f5e1c08aa01d7e",
+          "slot": "3caccb78c5fa6bd9ee7414aa63e1fb9dcfca7d920ba8aa363a90330eb7d6a6a3",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.authenticator",
+      "name": "Authenticator",
+      "summary": "Two-factor sign-in codes for your accounts",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.authenticator.png",
+      "categories": [
+        "Utility",
+        "Security"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-authenticator",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.authenticator-1/dev.sinty.authenticator-1.sxi",
+          "size": 245760,
+          "sha256": "a7b7086d82543dd32542c9ebd51165da257897660d3349558f4b9db4661303f5",
+          "verity": "38b7a7eed442c4c08ddf6a4a4a42ff5e9c7e204202f42900b912ce11f52b4330",
+          "slot": "867853813cae206064350c3dbbaff42ecbb13bb693b6aa4f91fc414d0ec3ec9d",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.browser",
+      "name": "Browser",
+      "summary": "Browse the web with tiles, tabs and bubbles",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.browser.png",
+      "categories": [
+        "Network",
+        "WebBrowser"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-browser",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.browser-1/dev.sinty.browser-1.sxi",
+          "size": 946176,
+          "sha256": "9597e2d004e0c9985e06272b06913ee19b8eed2f7237d3c2bd16cd8b7b9eeb62",
+          "verity": "c802aa51b818869541e134b8593e228d992ffedeff94232ab1cc55511c2c685d",
+          "slot": "f7b3c122dfad1787b55d6a94f05d090ed02ba3fe55fbf5f98eb27ae585c4ef37",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.connections",
+      "name": "Connections",
+      "summary": "See and control other computers over VNC and RDP",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.connections.png",
+      "categories": [
+        "Network",
+        "RemoteAccess"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-connections",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.connections-1/dev.sinty.connections-1.sxi",
+          "size": 102400,
+          "sha256": "47edfeb83e20725e458280a5fd3e1493f1855b6203955d39ac29ac2d94ce0904",
+          "verity": "0760d78688a8f66e9c1ad6d22a95be8ecf894fbc08d2ae94d715be57245fa37a",
+          "slot": "1127b357fbb8fa99f4e65b8fb24950f145442cd2e5bfb2ca18f304e31ba2f8a1",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.contacts",
+      "name": "Contacts",
+      "summary": "The people you know",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.contacts.png",
+      "categories": [
+        "Office",
+        "ContactManagement"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-contacts",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.contacts-1/dev.sinty.contacts-1.sxi",
+          "size": 229376,
+          "sha256": "052da6c8142e57c8174da84561ba27f5018051da0a879d51ad0b0c93ac67f084",
+          "verity": "8710b2910a5ab942685523558c7089ef21ff4c43e9ac818c5460ea5e54a921b3",
+          "slot": "b0a43778ad9be2a4e598f1294fd4abefba0b821e57b81c8a33802ce9a87f4c70",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.database",
+      "name": "Database",
+      "summary": "Build databases with tables, queries, forms and reports",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.database.png",
+      "categories": [
+        "Office",
+        "Database"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-database",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.database-1/dev.sinty.database-1.sxi",
+          "size": 2965504,
+          "sha256": "53f23e314d4a0af912775fd0953d214535edccf51ce61ed96feb9b7456c793d0",
+          "verity": "134c0ec455b0d4e18a19c43799c44d5e4911815f01c0fc7da44bbba71f5cc240",
+          "slot": "382d7601762ddd44d3413ce7e79970d6c22a72454a002653b7e26131f30e56c9",
+          "arch": "amd64"
+        }
+      ]
+    },
     {
       "id": "dev.sinty.demo",
       "name": "Singularity Demo",
@@ -25,6 +170,748 @@
           "sha256": "affa4bc8cb35d53a4991d45d05fb310475fe7e9fc4b929497c22701109562367",
           "verity": "6d04bbeb365acaad65070d9362549111919e5f3a346a8b2030b18e1bd37cc7f8",
           "slot": "3811e9e4a4583fd8ae394cc2f70ab847f6e644e27b926692cd47518dac95e40d",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.draw",
+      "name": "Draw",
+      "summary": "Draw diagrams, flowcharts and vector graphics",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.draw.png",
+      "categories": [
+        "Office",
+        "Graphics",
+        "VectorGraphics",
+        "FlowChart"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-draw",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.draw-1/dev.sinty.draw-1.sxi",
+          "size": 2453504,
+          "sha256": "1cea431cfb5b4a10a511ce1e472b032e6af25d56b347841c2e33549eea597649",
+          "verity": "26fa116f16aeff8754de8e3b42afbdf7ea273338d84522e0b3f0d61dddaad816",
+          "slot": "ab955719336d42de741d3d8263cb0f1c7fcddd3a0ae115614f16aaafe487c63e",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.drivewriter",
+      "name": "Drive Writer",
+      "summary": "Write disk images to USB drives and memory cards",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.drivewriter.png",
+      "categories": [
+        "Utility",
+        "System"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-drivewriter",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.drivewriter-1/dev.sinty.drivewriter-1.sxi",
+          "size": 167936,
+          "sha256": "4ba44b491b1501491a30838a7c7493a0b8d6506d693e662593eb1e063bbe0db0",
+          "verity": "d8669671bc24f36ba0d5f2f25fbb0937a2f4a98b455c12b48fe9fa25595818f8",
+          "slot": "6fce4ed9d1a8c3c8539917a4f76524834a9c61888ea3d402a322bf88dbf5509a",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.fediverse",
+      "name": "Fediverse",
+      "summary": "Follow people on Mastodon and the social web",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.fediverse.png",
+      "categories": [
+        "Network",
+        "Chat",
+        "InstantMessaging"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-fediverse",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.fediverse-1/dev.sinty.fediverse-1.sxi",
+          "size": 421888,
+          "sha256": "e59b57c967071524b232f7066bce4760f56c04b1f2717a2898e44ce76fac3d7e",
+          "verity": "60ead8922fc959fbe85c87ddec3cee419b7e4895bed066ff0bcb53a9009e1c9d",
+          "slot": "79c6906169cda1b18b5fd98570be7b06ad777ad77210b313f95afa27ded2704b",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.formula",
+      "name": "Formula",
+      "summary": "Write equations for documents, slides and the web",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.formula.png",
+      "categories": [
+        "Office",
+        "Education",
+        "Science",
+        "Math"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-formula",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.formula-1/dev.sinty.formula-1.sxi",
+          "size": 757760,
+          "sha256": "a66f1114939ee97109a13d935dfdc787485ee6a889484f5468cbe90851739d88",
+          "verity": "2540d9cb7906758702b31e38da207aab6d08d8cffcb72d6f930062817fd25ed7",
+          "slot": "d054c601fc0354eb0476c2eb805c7c47c7a2686c05382707409c70a317353df8",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.git",
+      "name": "Git",
+      "summary": "Visual Git client - branches, commits, diffs, conflicts",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.git.png",
+      "categories": [
+        "Development",
+        "RevisionControl"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-git",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.git-1/dev.sinty.git-1.sxi",
+          "size": 135168,
+          "sha256": "5c09946bb411593dd7eb856e3a48d12c887cc9e27413932764a34c3f17c09a91",
+          "verity": "47a2c42c5bba257094b0470ba5d40a68f492b11e2c22390ffa6fa06bcfb31985",
+          "slot": "d21a746ea6157d3d05847a4f64a65db2ba4fd836d33f8cd22f04ee201970ccd0",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.keyframe",
+      "name": "Keyframe",
+      "summary": "Animate titles, graphics and effects, and composite video",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.keyframe.png",
+      "categories": [
+        "AudioVideo",
+        "Video",
+        "Graphics",
+        "2DGraphics"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-keyframe",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.keyframe-1/dev.sinty.keyframe-1.sxi",
+          "size": 5177344,
+          "sha256": "d854ecfc18c931fec090a0c701822095701a5d7cbe7aba4c4f661dcdc720a21c",
+          "verity": "807365ec716e69f38948888bc0ae80dcaacdd326f9adc71720eef6fd5acd1326",
+          "slot": "819c15f0ef7c0e097cfda2f373720286548896f582cdd0e25f60afeb4b6c3999",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.lettere",
+      "name": "Lettere",
+      "summary": "Read and write email",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.lettere.png",
+      "categories": [
+        "Network",
+        "Email"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-lettere",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.lettere-1/dev.sinty.lettere-1.sxi",
+          "size": 1650688,
+          "sha256": "9c1e027cf14061ae8822f59364fc14d7944783549dea7ff280930c2a8734d353",
+          "verity": "55931b6407a68a96dd5e6643cb3dd9b21ab7197d5e12667d07fe191d2ed59bd9",
+          "slot": "d68ee2723519409bf2523cf202b0421492f61eb4e6d1456e19129390ee79f176",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.machines",
+      "name": "Machines",
+      "summary": "Run other operating systems in virtual machines",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.machines.png",
+      "categories": [
+        "System",
+        "Emulator"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-machines",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.machines-1/dev.sinty.machines-1.sxi",
+          "size": 299008,
+          "sha256": "8474a845df5bf4d574db2d6344b27229619501aef687cb8cf5a043878aae3b18",
+          "verity": "8ee964e369d735c4ec60874f87668de458e077ebaba74b6338e265c4973292e5",
+          "slot": "389580d2932881da5d1d9b40234a2f6790d1688d3a787ceabe9aea78d97a457d",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.maps",
+      "name": "Maps",
+      "summary": "Find places and plan routes",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.maps.png",
+      "categories": [
+        "Utility",
+        "Maps"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-maps",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.maps-1/dev.sinty.maps-1.sxi",
+          "size": 159744,
+          "sha256": "e9d3df51698c261ec089b16b64f6e4f865a413f4bc0b403f1fc4cea41dbcf010",
+          "verity": "a709b536ddcd8b78c280e857b835917c47d44807fdb78a3aad2be241d6df52e3",
+          "slot": "40707d51a930fc555dc5c5198960601c58188e690c02408ff3febf9b432d4e35",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.messages",
+      "name": "Messages",
+      "summary": "Chat on Nextcloud Talk, Google Chat, Teams and more in one place",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.messages.png",
+      "categories": [
+        "Network",
+        "Chat",
+        "InstantMessaging"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-messages",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.messages-1/dev.sinty.messages-1.sxi",
+          "size": 352256,
+          "sha256": "48b1a1ba93d347019628abc4bcf2549e3a1e5f477387b19b3403be29f09baa8c",
+          "verity": "6180b09372a2487d544884fd1b5427b903010ff81bec6858762f6443bd844d59",
+          "slot": "0da6fd0c1fe425af6ac5d509d3e4b777a98db200adbdeda8ab4dbc0797a44204",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.montage",
+      "name": "Montage",
+      "summary": "Edit video on a multitrack timeline and export for the web, social and masters",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.montage.png",
+      "categories": [
+        "AudioVideo",
+        "Video",
+        "AudioVideoEditing"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-montage",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.2.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.montage-1/dev.sinty.montage-1.sxi",
+          "size": 1011712,
+          "sha256": "5a29708ac8a0f37b34a2772248e445bd130cb425601250a09aed8f264c4d833a",
+          "verity": "e7418f1eb421079ca9b08f263c3cf9af9e7ccf305cd10fe2c39e731c69cb5450",
+          "slot": "f2d92c6ee3583b0a67e3305369e2695482a9bb066bd9f6a2809b7d12747b5d07",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.music",
+      "name": "Music",
+      "summary": "Play music and audio files",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.music.png",
+      "categories": [
+        "AudioVideo",
+        "Audio",
+        "Player"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-music",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.music-1/dev.sinty.music-1.sxi",
+          "size": 344064,
+          "sha256": "42df697e0a3eb0c65368f119ef7b35a17933bb927db4b0768a1b93398305ce05",
+          "verity": "538f7cc9e2ed88e7ddbd8f6e4f8a8335569924bd7df4e3de131d99c55a4af680",
+          "slot": "4cd1fb08dc2e4184333e145619db229273e321bcf72637546464e7a5f1826965",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.news",
+      "name": "News",
+      "summary": "Read the latest from your favorite sites",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.news.png",
+      "categories": [
+        "Network",
+        "Feed",
+        "News"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-news",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.news-1/dev.sinty.news-1.sxi",
+          "size": 319488,
+          "sha256": "39709ff60f55d66f9bd9065eb799a9db0f9cba1b26486ad7ba4f495c7674b4ad",
+          "verity": "1a4b1c2e963e1d1873602f0d60d81de2e913a8c59f83f0d167cb779782908b52",
+          "slot": "0d486f9b187be548005fbd887db0af120d4ae76285de5a2ce07bebaf5b16b204",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.notes",
+      "name": "Notes",
+      "summary": "Notebooks with pages, drawings, tables, tags and recordings, synced with your accounts",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.notes.png",
+      "categories": [
+        "Office",
+        "Utility"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-notes",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.notes-1/dev.sinty.notes-1.sxi",
+          "size": 3923968,
+          "sha256": "d530ad831a2e68db348ab77531ef4fdeca666ac2566304c915ad4cc1af03200e",
+          "verity": "3b22c667b142bac0c2b287c5f469fed85faa6d298d6f8c0aaa93bd061d490a75",
+          "slot": "3e10c2ef2258c96debaba3cd7fc6d8be1f61ca2141ab300df4db5409a96ae128",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.passwords",
+      "name": "Passwords",
+      "summary": "Keep and find your passwords",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.passwords.png",
+      "categories": [
+        "Utility",
+        "Security"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-passwords",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.passwords-1/dev.sinty.passwords-1.sxi",
+          "size": 155648,
+          "sha256": "b61c85b2cf93da489da39fde7137115b6a76ca08a0b6acd3d134db8d2e743cc6",
+          "verity": "ad989eb36eba511c95084278442f208866e841f461d05782bf23740039c7cf53",
+          "slot": "fc89eb73155f9fad9677caa7c0eece2ce408cd526fc0d1cd1249d694c08d5fe1",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.photos",
+      "name": "Photos",
+      "summary": "View and manage your photos",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.photos.png",
+      "categories": [
+        "Graphics",
+        "Photography"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-photos",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.photos-1/dev.sinty.photos-1.sxi",
+          "size": 1900544,
+          "sha256": "9d60eda82c0bcf8dcb1c7f7e1b53c6b9258e71390a4d176e9dc8e0972544920b",
+          "verity": "645daccda7db7d758680a2ec22a6056ceaee9561839d5f968a8a30e8f5b6a05e",
+          "slot": "d332cc01207d9cd161383f47866919a65a5c79f6082ca2c41d88316b8e0a151e",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.podcasts",
+      "name": "Podcasts",
+      "summary": "Listen to your favorite shows",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.podcasts.png",
+      "categories": [
+        "AudioVideo",
+        "Audio",
+        "Player"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-podcasts",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.podcasts-1/dev.sinty.podcasts-1.sxi",
+          "size": 315392,
+          "sha256": "ed8ef1a0bc3f2e496ba942aada054221ba566e41759de4bda70cb8b926328901",
+          "verity": "355900a110e80b7265dc91676f6b9a22e7003e3c077765694f046a3c2d3bde2a",
+          "slot": "b496129ca5e2132939f0ffbf3d0a090480081f66edcf729b27eb2712a699ecb7",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.publish",
+      "name": "Publish",
+      "summary": "Lay out flyers, brochures, newsletters and cards for print",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.publish.png",
+      "categories": [
+        "Office",
+        "Publishing",
+        "Graphics"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-publish",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 2,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.publish-2/dev.sinty.publish-2.sxi",
+          "size": 5484544,
+          "sha256": "cc20cc35a0508c9a217a4b9037f9feae215f0b4aab1099c3be43dae10f568e01",
+          "verity": "ceb891151274437b5eb43c5947f4d70d9fb715e3b60dbf3948a89cfe3a139395",
+          "slot": "2c21105dc3913a52d1c5204454cd493c94df11761553aa0aea417806a1e0f982",
+          "arch": "amd64"
+        },
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.publish-1/dev.sinty.publish-1.sxi",
+          "size": 22839296,
+          "sha256": "f260c845bf7de5975acedcc17aebdf7ca411bd05e8faf4a170bab4a11ea11645",
+          "verity": "61068e345285ca6699307e813b7cdfe8c787a9c7fd8f30793f12f42519c7f0ee",
+          "slot": "202466f477a6402f68bd9ce83043a8437764af6801fec5f2a93b54c336166828",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.radio",
+      "name": "Radio",
+      "summary": "Listen to internet radio stations",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.radio.png",
+      "categories": [
+        "AudioVideo",
+        "Audio",
+        "Player"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-radio",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.radio-1/dev.sinty.radio-1.sxi",
+          "size": 258048,
+          "sha256": "6e28cbad7ef2d811e470e6e4464fc05bb0d4ef7edf92b58f6610e66dabc08446",
+          "verity": "57c2f6ca3ecb3dcc25a5795b2b21168763e24047edd7c74c5d70f3c6a1439ac0",
+          "slot": "cacb3188daa8f7f4adb8dea22c858411cd81c1fa6ebd03a967b49baad01e1fe7",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.reader",
+      "name": "Reader",
+      "summary": "Read, annotate and sign PDF documents",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.reader.png",
+      "categories": [
+        "Office",
+        "Viewer"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-reader",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 2,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.reader-2/dev.sinty.reader-2.sxi",
+          "size": 2609152,
+          "sha256": "0ebea8735c5771b0dc85e077d7fb223c36c8fa425a8498d4e9a79352d082dd96",
+          "verity": "f23ff3f75e727cf17c94e89f5f9997e44cbf15720a46cb37936751f8385ac7bb",
+          "slot": "3d644f45db2d6ea60d2ccac5a81faf9be22fa987df9c5752e51d570b6fe7bca6",
+          "arch": "amd64"
+        },
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.reader-1/dev.sinty.reader-1.sxi",
+          "size": 19963904,
+          "sha256": "23e7c4ce8773c696bb22dbc9bd7da799e06b25913e91b2aef06487a7d6b19af8",
+          "verity": "af8a82e5a405d3099edb0141af55834e410850d7972092971fd68b50e7164e74",
+          "slot": "bd5b717c54b802e95415153e2eba73c71cf56647fdc17682f20c31bb7dbba0cd",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.slides",
+      "name": "Slides",
+      "summary": "Create and present slideshows",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.slides.png",
+      "categories": [
+        "Office",
+        "Presentation"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-slides",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.slides-1/dev.sinty.slides-1.sxi",
+          "size": 2228224,
+          "sha256": "6b801c0e3d160e10bfec1ccc327826490841f8137ebe354fedd2b88f0d7729f1",
+          "verity": "ebaa00bd3c965aa41da21e2beefaf6eec4ce72ee50f9bfd1fd6a6027280efb5b",
+          "slot": "441099be86e7ea2ba288cf1f1978df9ce73fb631265fb9093b4e30195bf650f6",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.spreadsheet",
+      "name": "Spreadsheet",
+      "summary": "Work with numbers, formulas and charts",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.spreadsheet.png",
+      "categories": [
+        "Office",
+        "Spreadsheet"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-spreadsheet",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.spreadsheet-1/dev.sinty.spreadsheet-1.sxi",
+          "size": 5910528,
+          "sha256": "51cfe468057a07881c43450955a67a13e16d5f02fbfde8bd422f23e5690c87f3",
+          "verity": "c8765fb6efb653e16e98269c4b81bbb844e601056a642c1ce75e941643d8be17",
+          "slot": "a368124ba93590df7ac4ed4a6df4be9ac60034524683bdbb4889418266db5ca3",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.tasks",
+      "name": "Tasks",
+      "summary": "Plan what to do today and later",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.tasks.png",
+      "categories": [
+        "Office",
+        "ProjectManagement"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-tasks",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.tasks-1/dev.sinty.tasks-1.sxi",
+          "size": 466944,
+          "sha256": "3f7fc143fef5d6ad4ff99aa1157f94e798e6fe55df5b41f9329f1fd831e26db2",
+          "verity": "5224f2e1403722e37b760cd2193ce58a2cbf29987faf24908befeb63a844077d",
+          "slot": "29efad8da8be7ca93142522687734cfd91975a7c4d7ed21323c9cd1ac1e8776d",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.translate",
+      "name": "Translate",
+      "summary": "Translate text between languages",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.translate.png",
+      "categories": [
+        "Utility"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-translate",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.translate-1/dev.sinty.translate-1.sxi",
+          "size": 380928,
+          "sha256": "42682998113ffdec37f0e21f237cd02a64985ec7ed2371e043c4643c59b2b025",
+          "verity": "e3c8699884b3960e73bb91085a5d4378c8498f9ad5602a64dd522eb721eaad7f",
+          "slot": "5c198440192da362298864f2021c1aecebe275916513276f56a101589561a5c6",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.vector",
+      "name": "Vector",
+      "summary": "Create illustrations, icons, and scalable graphics",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.vector.png",
+      "categories": [
+        "Graphics",
+        "VectorGraphics"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-vector",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.2.0",
+          "sequence": 3,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.vector-3/dev.sinty.vector-3.sxi",
+          "size": 3379200,
+          "sha256": "2e1a6e9b28d4fbdf50a99a8e7370f422abba7bfa8feae12ce794d006b69f42e1",
+          "verity": "677de6092bec41fb13c622454e4be26aa65897f003bf65b0593b51b52d79374c",
+          "slot": "79cabeece7e21b376cf76db83d6a8a4d474fdd58d9eac5f097361e653c8fb70e",
+          "arch": "amd64"
+        },
+        {
+          "version": "0.2.0",
+          "sequence": 2,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.vector-2/dev.sinty.vector-2.sxi",
+          "size": 19677184,
+          "sha256": "118ca2e7fa58db09843199ea3d84fe43d69966acb9f9c68cdc659e18d562a7ad",
+          "verity": "31496d97c3c949f5bde702d17776686ebe65a642ee251546c8edec8870a03ff7",
+          "slot": "9fb059df9e9eaba6ee207db8463f4b34facf563be560bcc632243ae5e43406ce",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.videos",
+      "name": "Videos",
+      "summary": "Play movies and videos",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.videos.png",
+      "categories": [
+        "AudioVideo",
+        "Player"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-videos",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.videos-1/dev.sinty.videos-1.sxi",
+          "size": 380928,
+          "sha256": "a55d7bc23645e01658051a98b83f29f1639b1dbbc2f2e0de16ff835dc0dd2c8a",
+          "verity": "691d322b584fad94b8722656665630333d911a8b1f6fd80d9c83d2834df0c698",
+          "slot": "cce61fd8772416545a887d9e80005922f3566fdb168eb90a443eb7231ce75af1",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.voice",
+      "name": "Recorder",
+      "summary": "Record voice notes and meetings",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.voice.png",
+      "categories": [
+        "AudioVideo",
+        "Audio",
+        "Recorder"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-voice",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.voice-1/dev.sinty.voice-1.sxi",
+          "size": 192512,
+          "sha256": "4fb8dae327ca0d7dff70286509572394c38d8a6f2c453759edfdd0dc683b4886",
+          "verity": "0e93f195205339166557ab06ddb9396a8840c63a4ab8f63c2602631307d1fa47",
+          "slot": "b3779d549276f549bbcfe6e6952021830137b2dc1c63827cbd0dd2ac4252abcd",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.wave",
+      "name": "Wave",
+      "summary": "Record, edit, restore and mix audio",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.wave.png",
+      "categories": [
+        "AudioVideo",
+        "Audio",
+        "AudioVideoEditing",
+        "Recorder"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-wave",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.wave-1/dev.sinty.wave-1.sxi",
+          "size": 1044480,
+          "sha256": "8eb99cb29f116f853c08b5d96ff25b89c2d3f76db8d56e1ccff70ee0425f5071",
+          "verity": "be6ef85aee4568b25b4c54ebf0375e833ecc73e4a9c500d59f3fcae3d51cd845",
+          "slot": "dc7e33f0e994a9a63db8103bd3d34b720d4b1ae4d99ca3d39cc76310849597d5",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.write",
+      "name": "Write",
+      "summary": "Create and edit documents",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.write.png",
+      "categories": [
+        "Office",
+        "WordProcessor"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-write",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.write-1/dev.sinty.write-1.sxi",
+          "size": 1703936,
+          "sha256": "0dbf246609e2884a5bc22fd96e7af317dd508cf0399b4821bf553297b7a1af4e",
+          "verity": "15951431e04f6ea5687e2d21a0e1db1f9fc63a3ef30f3bee676a671592d37c48",
+          "slot": "7da7b4f782e41a84f7176167ce8d31178bd0a288c69e36feaa44826269de3aab",
           "arch": "amd64"
         }
       ]
