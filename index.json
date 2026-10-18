@@ -2,7 +2,32 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 1,
-  "generated": "2026-10-18T05:02:16Z",
-  "apps": []
+  "sequence": 2,
+  "generated": "2026-10-18T05:18:58Z",
+  "apps": [
+    {
+      "id": "dev.sinty.demo",
+      "name": "Singularity Demo",
+      "summary": "Every widget of the Singularity toolkit in one window",
+      "description": "A tour of the libsingularity widgets, styles and motion, useful to see what the toolkit offers and to try it while building apps.",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.demo.svg",
+      "categories": [
+        "Development"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-demo",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/demo-1/dev.sinty.demo-1.sxi",
+          "size": 2039808,
+          "sha256": "affa4bc8cb35d53a4991d45d05fb310475fe7e9fc4b929497c22701109562367",
+          "verity": "6d04bbeb365acaad65070d9362549111919e5f3a346a8b2030b18e1bd37cc7f8",
+          "slot": "3811e9e4a4583fd8ae394cc2f70ab847f6e644e27b926692cd47518dac95e40d",
+          "arch": "amd64"
+        }
+      ]
+    }
+  ]
 }
