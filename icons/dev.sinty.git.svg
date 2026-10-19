@@ -1,0 +1,31 @@
+<svg width="236" height="236" viewBox="0 0 236 236" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gt_tube" x1="0" y1="30" x2="0" y2="210" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffab66"/><stop offset="0.5" stop-color="#fa8531"/><stop offset="1" stop-color="#dc5c1e"/></linearGradient>
+<radialGradient id="gt_node" cx="0.38" cy="0.3" r="0.8"><stop offset="0" stop-color="#ffb877"/><stop offset="0.5" stop-color="#fa8531"/><stop offset="1" stop-color="#d9581c"/></radialGradient>
+<linearGradient id="gt_core" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff7ed"/><stop offset="1" stop-color="#ffe2c2"/></linearGradient>
+<filter id="gt_shadow" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#591f08" flood-opacity="0.42"/></filter>
+<filter id="gt_core_shadow" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#a1411a" flood-opacity="0.5"/></filter>
+</defs>
+<g filter="url(#gt_shadow)">
+<path d="M68 50V184" stroke="#a1411a" stroke-width="26" stroke-linecap="round" transform="translate(0 8)"/>
+<path d="M68 148C68 110 174 136 174 96" stroke="#a1411a" stroke-width="26" stroke-linecap="round" transform="translate(0 8)"/>
+<circle cx="68" cy="58" r="34" fill="#a1411a"/>
+<circle cx="68" cy="192" r="34" fill="#a1411a"/>
+<circle cx="174" cy="104" r="34" fill="#a1411a"/>
+<path d="M68 50V184" stroke="url(#gt_tube)" stroke-width="26" stroke-linecap="round"/>
+<path d="M68 148C68 110 174 136 174 96" stroke="url(#gt_tube)" stroke-width="26" stroke-linecap="round"/>
+<circle cx="68" cy="50" r="34" fill="url(#gt_node)"/>
+<circle cx="68" cy="184" r="34" fill="url(#gt_node)"/>
+<circle cx="174" cy="96" r="34" fill="url(#gt_node)"/>
+</g>
+<circle cx="68" cy="50" r="32" stroke="white" stroke-opacity="0.28" stroke-width="2"/>
+<g filter="url(#gt_core_shadow)"><circle cx="68" cy="50" r="15" fill="#fff7ed"/></g>
+<path d="M46 40A24 24 0 0 1 60 27" stroke="white" stroke-opacity="0.55" stroke-width="5" stroke-linecap="round"/>
+<circle cx="68" cy="184" r="32" stroke="white" stroke-opacity="0.28" stroke-width="2"/>
+<g filter="url(#gt_core_shadow)"><circle cx="68" cy="184" r="15" fill="#fff7ed"/></g>
+<path d="M46 174A24 24 0 0 1 60 161" stroke="white" stroke-opacity="0.55" stroke-width="5" stroke-linecap="round"/>
+<circle cx="174" cy="96" r="32" stroke="white" stroke-opacity="0.28" stroke-width="2"/>
+<g filter="url(#gt_core_shadow)"><circle cx="174" cy="96" r="15" fill="#fff7ed"/></g>
+<path d="M152 86A24 24 0 0 1 166 73" stroke="white" stroke-opacity="0.55" stroke-width="5" stroke-linecap="round"/>
+<path d="M62 96V140" stroke="white" stroke-opacity="0.35" stroke-width="5" stroke-linecap="round"/>
+</svg>

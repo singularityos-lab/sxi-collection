@@ -1,0 +1,38 @@
+<svg width="236" height="236" viewBox="0 0 236 236" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="db_paper" x1="60" y1="18" x2="180" y2="214" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff"/><stop offset="0.6" stop-color="#f2f7fa"/><stop offset="1" stop-color="#dde9f1"/></linearGradient>
+<linearGradient id="db_side" x1="0" y1="196" x2="0" y2="224" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#93b4c6"/><stop offset="1" stop-color="#6f97ad"/></linearGradient>
+<linearGradient id="db_fold" x1="150" y1="18" x2="194" y2="62" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e6f0f5"/><stop offset="1" stop-color="#aecbdb"/></linearGradient>
+<radialGradient id="db_bloom" cx="70" cy="30" r="170" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="white" stop-opacity="0.5"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
+<clipPath id="db_clip"><path d="M60 18H150L194 62V196Q194 214 176 214H60Q42 214 42 196V36Q42 18 60 18Z"/></clipPath>
+<filter id="db_shadow" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#1a3342" flood-opacity="0.4"/></filter>
+<filter id="db_fold_shadow" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#3d7a94" flood-opacity="0.35"/></filter>
+<filter id="db_drum_shadow" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#3b1f8a" flood-opacity="0.4"/></filter>
+<linearGradient id="db_head" x1="60" y1="72" x2="176" y2="90" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#9b7bff"/><stop offset="0.55" stop-color="#7a52f0"/><stop offset="1" stop-color="#5b33cf"/></linearGradient>
+<linearGradient id="db_drum" x1="132" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8a64ff"/><stop offset="0.55" stop-color="#6a3fe6"/><stop offset="1" stop-color="#4b27b8"/></linearGradient>
+<linearGradient id="db_top" x1="132" y1="128" x2="200" y2="148" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d9ccff"/><stop offset="1" stop-color="#b39cff"/></linearGradient>
+</defs>
+<g filter="url(#db_shadow)">
+<path d="M60 18H150L194 62V196Q194 214 176 214H60Q42 214 42 196V36Q42 18 60 18Z" fill="url(#db_side)" transform="translate(0 10)"/>
+<path d="M60 18H150L194 62V196Q194 214 176 214H60Q42 214 42 196V36Q42 18 60 18Z" fill="url(#db_paper)"/>
+</g>
+<g clip-path="url(#db_clip)"><rect width="236" height="236" fill="url(#db_bloom)"/></g>
+<path d="M60 18H150L194 62V196Q194 214 176 214H60Q42 214 42 196V36Q42 18 60 18Z" stroke="white" stroke-opacity="0.8" stroke-width="4" clip-path="url(#db_clip)"/>
+<g filter="url(#db_fold_shadow)"><path d="M150 18V50Q150 62 162 62H194Z" fill="url(#db_fold)" stroke="url(#db_fold)" stroke-width="2" stroke-linejoin="round"/></g>
+<rect x="60" y="72" width="116" height="18" rx="9" fill="url(#db_head)"/>
+<circle cx="69" cy="107.5" r="5" fill="#f5b342"/>
+<rect x="80" y="99" width="96" height="17" rx="8.5" fill="#ddd3ff"/>
+<circle cx="69" cy="130.5" r="5" fill="#c8bdf0"/>
+<rect x="80" y="122" width="96" height="17" rx="8.5" fill="#ebe5ff"/>
+<circle cx="69" cy="153.5" r="5" fill="#c8bdf0"/>
+<rect x="80" y="145" width="44" height="17" rx="8.5" fill="#ddd3ff"/>
+<circle cx="69" cy="176.5" r="5" fill="#c8bdf0"/>
+<rect x="80" y="168" width="44" height="17" rx="8.5" fill="#ebe5ff"/>
+<g filter="url(#db_drum_shadow)">
+<path d="M132 140V186Q132 198 166 198Q200 198 200 186V140Z" fill="url(#db_drum)"/>
+<path d="M132 155Q132 167 166 167Q200 167 200 155" stroke="#b9a4ff" stroke-width="3" stroke-opacity="0.8" fill="none"/>
+<path d="M132 171Q132 183 166 183Q200 183 200 171" stroke="#b9a4ff" stroke-width="3" stroke-opacity="0.8" fill="none"/>
+<ellipse cx="166" cy="140" rx="34" ry="11" fill="url(#db_top)"/>
+<ellipse cx="166" cy="140" rx="34" ry="11" stroke="white" stroke-opacity="0.75" stroke-width="2.5" fill="none"/>
+</g>
+</svg>

@@ -2,14 +2,14 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 42,
+  "sequence": 43,
   "generated": "2026-10-18T09:56:36Z",
   "apps": [
     {
       "id": "dev.sinty.atelier",
       "name": "Atelier",
       "summary": "Sketch, make patterns, grade sizes and prepare tech packs",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.atelier.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.atelier.svg",
       "categories": [
         "Graphics",
         "VectorGraphics",
@@ -34,7 +34,7 @@
       "id": "dev.sinty.authenticator",
       "name": "Authenticator",
       "summary": "Two-factor sign-in codes for your accounts",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.authenticator.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.authenticator.svg",
       "categories": [
         "Utility",
         "Security"
@@ -58,7 +58,7 @@
       "id": "dev.sinty.browser",
       "name": "Browser",
       "summary": "Browse the web with tiles, tabs and bubbles",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.browser.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.browser.svg",
       "categories": [
         "Network",
         "WebBrowser"
@@ -82,7 +82,7 @@
       "id": "dev.sinty.connections",
       "name": "Connections",
       "summary": "See and control other computers over VNC and RDP",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.connections.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.connections.svg",
       "categories": [
         "Network",
         "RemoteAccess"
@@ -106,7 +106,7 @@
       "id": "dev.sinty.contacts",
       "name": "Contacts",
       "summary": "The people you know",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.contacts.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.contacts.svg",
       "categories": [
         "Office",
         "ContactManagement"
@@ -130,7 +130,7 @@
       "id": "dev.sinty.database",
       "name": "Database",
       "summary": "Build databases with tables, queries, forms and reports",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.database.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.database.svg",
       "categories": [
         "Office",
         "Database"
@@ -155,7 +155,7 @@
       "name": "Singularity Demo",
       "summary": "Every widget of the Singularity toolkit in one window",
       "description": "A tour of the libsingularity widgets, styles and motion, useful to see what the toolkit offers and to try it while building apps.",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.demo.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.demo.svg",
       "categories": [
         "Development"
       ],
@@ -178,7 +178,7 @@
       "id": "dev.sinty.draw",
       "name": "Draw",
       "summary": "Draw diagrams, flowcharts and vector graphics",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.draw.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.draw.svg",
       "categories": [
         "Office",
         "Graphics",
@@ -204,7 +204,7 @@
       "id": "dev.sinty.drivewriter",
       "name": "Drive Writer",
       "summary": "Write disk images to USB drives and memory cards",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.drivewriter.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.drivewriter.svg",
       "categories": [
         "Utility",
         "System"
@@ -228,7 +228,7 @@
       "id": "dev.sinty.fediverse",
       "name": "Fediverse",
       "summary": "Follow people on Mastodon and the social web",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.fediverse.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.fediverse.svg",
       "categories": [
         "Network",
         "Chat",
@@ -253,7 +253,7 @@
       "id": "dev.sinty.formula",
       "name": "Formula",
       "summary": "Write equations for documents, slides and the web",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.formula.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.formula.svg",
       "categories": [
         "Office",
         "Education",
@@ -279,7 +279,7 @@
       "id": "dev.sinty.git",
       "name": "Git",
       "summary": "Visual Git client - branches, commits, diffs, conflicts",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.git.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.git.svg",
       "categories": [
         "Development",
         "RevisionControl"
@@ -303,7 +303,7 @@
       "id": "dev.sinty.keyframe",
       "name": "Keyframe",
       "summary": "Animate titles, graphics and effects, and composite video",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.keyframe.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.keyframe.svg",
       "categories": [
         "AudioVideo",
         "Video",
@@ -329,7 +329,7 @@
       "id": "dev.sinty.lettere",
       "name": "Lettere",
       "summary": "Read and write email",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.lettere.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.lettere.svg",
       "categories": [
         "Network",
         "Email"
@@ -353,7 +353,7 @@
       "id": "dev.sinty.machines",
       "name": "Machines",
       "summary": "Run other operating systems in virtual machines",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.machines.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.machines.svg",
       "categories": [
         "System",
         "Emulator"
@@ -377,7 +377,7 @@
       "id": "dev.sinty.maps",
       "name": "Maps",
       "summary": "Find places and plan routes",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.maps.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.maps.svg",
       "categories": [
         "Utility",
         "Maps"
@@ -401,7 +401,7 @@
       "id": "dev.sinty.messages",
       "name": "Messages",
       "summary": "Chat on Nextcloud Talk, Google Chat, Teams and more in one place",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.messages.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.messages.svg",
       "categories": [
         "Network",
         "Chat",
@@ -426,7 +426,7 @@
       "id": "dev.sinty.montage",
       "name": "Montage",
       "summary": "Edit video on a multitrack timeline and export for the web, social and masters",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.montage.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.montage.svg",
       "categories": [
         "AudioVideo",
         "Video",
@@ -451,7 +451,7 @@
       "id": "dev.sinty.music",
       "name": "Music",
       "summary": "Play music and audio files",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.music.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.music.svg",
       "categories": [
         "AudioVideo",
         "Audio",
@@ -476,7 +476,7 @@
       "id": "dev.sinty.news",
       "name": "News",
       "summary": "Read the latest from your favorite sites",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.news.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.news.svg",
       "categories": [
         "Network",
         "Feed",
@@ -501,7 +501,7 @@
       "id": "dev.sinty.notes",
       "name": "Notes",
       "summary": "Notebooks with pages, drawings, tables, tags and recordings, synced with your accounts",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.notes.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.notes.svg",
       "categories": [
         "Office",
         "Utility"
@@ -525,7 +525,7 @@
       "id": "dev.sinty.passwords",
       "name": "Passwords",
       "summary": "Keep and find your passwords",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.passwords.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.passwords.svg",
       "categories": [
         "Utility",
         "Security"
@@ -549,7 +549,7 @@
       "id": "dev.sinty.photos",
       "name": "Photos",
       "summary": "View and manage your photos",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.photos.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.photos.svg",
       "categories": [
         "Graphics",
         "Photography"
@@ -573,7 +573,7 @@
       "id": "dev.sinty.podcasts",
       "name": "Podcasts",
       "summary": "Listen to your favorite shows",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.podcasts.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.podcasts.svg",
       "categories": [
         "AudioVideo",
         "Audio",
@@ -598,7 +598,7 @@
       "id": "dev.sinty.publish",
       "name": "Publish",
       "summary": "Lay out flyers, brochures, newsletters and cards for print",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.publish.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.publish.svg",
       "categories": [
         "Office",
         "Publishing",
@@ -633,7 +633,7 @@
       "id": "dev.sinty.radio",
       "name": "Radio",
       "summary": "Listen to internet radio stations",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.radio.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.radio.svg",
       "categories": [
         "AudioVideo",
         "Audio",
@@ -658,7 +658,7 @@
       "id": "dev.sinty.reader",
       "name": "Reader",
       "summary": "Read, annotate and sign PDF documents",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.reader.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.reader.svg",
       "categories": [
         "Office",
         "Viewer"
@@ -692,7 +692,7 @@
       "id": "dev.sinty.slides",
       "name": "Slides",
       "summary": "Create and present slideshows",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.slides.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.slides.svg",
       "categories": [
         "Office",
         "Presentation"
@@ -716,7 +716,7 @@
       "id": "dev.sinty.spreadsheet",
       "name": "Spreadsheet",
       "summary": "Work with numbers, formulas and charts",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.spreadsheet.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.spreadsheet.svg",
       "categories": [
         "Office",
         "Spreadsheet"
@@ -740,7 +740,7 @@
       "id": "dev.sinty.tasks",
       "name": "Tasks",
       "summary": "Plan what to do today and later",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.tasks.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.tasks.svg",
       "categories": [
         "Office",
         "ProjectManagement"
@@ -764,7 +764,7 @@
       "id": "dev.sinty.translate",
       "name": "Translate",
       "summary": "Translate text between languages",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.translate.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.translate.svg",
       "categories": [
         "Utility"
       ],
@@ -787,7 +787,7 @@
       "id": "dev.sinty.vector",
       "name": "Vector",
       "summary": "Create illustrations, icons, and scalable graphics",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.vector.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.vector.svg",
       "categories": [
         "Graphics",
         "VectorGraphics"
@@ -821,7 +821,7 @@
       "id": "dev.sinty.videos",
       "name": "Videos",
       "summary": "Play movies and videos",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.videos.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.videos.svg",
       "categories": [
         "AudioVideo",
         "Player"
@@ -845,7 +845,7 @@
       "id": "dev.sinty.voice",
       "name": "Recorder",
       "summary": "Record voice notes and meetings",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.voice.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.voice.svg",
       "categories": [
         "AudioVideo",
         "Audio",
@@ -870,7 +870,7 @@
       "id": "dev.sinty.wave",
       "name": "Wave",
       "summary": "Record, edit, restore and mix audio",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.wave.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.wave.svg",
       "categories": [
         "AudioVideo",
         "Audio",
@@ -896,7 +896,7 @@
       "id": "dev.sinty.write",
       "name": "Write",
       "summary": "Create and edit documents",
-      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.write.png",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.write.svg",
       "categories": [
         "Office",
         "WordProcessor"

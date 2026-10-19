@@ -1,0 +1,35 @@
+<svg width="236" height="236" viewBox="0 0 236 236" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="ss_paper" x1="60" y1="18" x2="180" y2="214" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff"/><stop offset="0.6" stop-color="#f2f7fa"/><stop offset="1" stop-color="#dde9f1"/></linearGradient>
+<linearGradient id="ss_side" x1="0" y1="196" x2="0" y2="224" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#93b4c6"/><stop offset="1" stop-color="#6f97ad"/></linearGradient>
+<linearGradient id="ss_fold" x1="150" y1="18" x2="194" y2="62" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e6f0f5"/><stop offset="1" stop-color="#aecbdb"/></linearGradient>
+<radialGradient id="ss_bloom" cx="70" cy="30" r="170" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="white" stop-opacity="0.5"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
+<clipPath id="ss_clip"><path d="M60 18H150L194 62V196Q194 214 176 214H60Q42 214 42 196V36Q42 18 60 18Z"/></clipPath>
+<filter id="ss_shadow" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#1a3342" flood-opacity="0.4"/></filter>
+<filter id="ss_fold_shadow" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#3d7a94" flood-opacity="0.35"/></filter>
+<linearGradient id="ss_head" x1="60" y1="72" x2="176" y2="90" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#33d17a"/><stop offset="1" stop-color="#1f9d62"/></linearGradient>
+<linearGradient id="ss_bar" x1="0" y1="122" x2="0" y2="185" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2ec27e"/><stop offset="1" stop-color="#1a7f52"/></linearGradient>
+</defs>
+<g filter="url(#ss_shadow)">
+<path d="M60 18H150L194 62V196Q194 214 176 214H60Q42 214 42 196V36Q42 18 60 18Z" fill="url(#ss_side)" transform="translate(0 10)"/>
+<path d="M60 18H150L194 62V196Q194 214 176 214H60Q42 214 42 196V36Q42 18 60 18Z" fill="url(#ss_paper)"/>
+</g>
+<g clip-path="url(#ss_clip)"><rect width="236" height="236" fill="url(#ss_bloom)"/></g>
+<path d="M60 18H150L194 62V196Q194 214 176 214H60Q42 214 42 196V36Q42 18 60 18Z" stroke="white" stroke-opacity="0.8" stroke-width="4" clip-path="url(#ss_clip)"/>
+<g filter="url(#ss_fold_shadow)"><path d="M150 18V50Q150 62 162 62H194Z" fill="url(#ss_fold)" stroke="url(#ss_fold)" stroke-width="2" stroke-linejoin="round"/></g>
+<rect x="60" y="72" width="36" height="18" rx="9" fill="url(#ss_head)"/>
+<rect x="100" y="72" width="36" height="18" rx="9" fill="url(#ss_head)"/>
+<rect x="140" y="72" width="36" height="18" rx="9" fill="url(#ss_head)"/>
+<rect x="60" y="99" width="36" height="17" rx="8.5" fill="#9fdcbc"/>
+<rect x="100" y="99" width="36" height="17" rx="8.5" fill="#cfeedd"/>
+<rect x="140" y="99" width="36" height="17" rx="8.5" fill="#57d396"/>
+<rect x="60" y="122" width="36" height="17" rx="8.5" fill="#9fdcbc"/>
+<rect x="100" y="122" width="36" height="17" rx="8.5" fill="#57d396"/>
+<rect x="60" y="145" width="36" height="17" rx="8.5" fill="#9fdcbc"/>
+<rect x="100" y="145" width="36" height="17" rx="8.5" fill="#cfeedd"/>
+<rect x="60" y="168" width="36" height="17" rx="8.5" fill="#9fdcbc"/>
+<rect x="100" y="168" width="36" height="17" rx="8.5" fill="#cfeedd"/>
+<rect x="140" y="155" width="10" height="30" rx="5" fill="url(#ss_bar)"/>
+<rect x="153" y="137" width="10" height="48" rx="5" fill="url(#ss_bar)"/>
+<rect x="166" y="122" width="10" height="63" rx="5" fill="url(#ss_bar)"/>
+</svg>

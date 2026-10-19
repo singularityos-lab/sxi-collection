@@ -1,0 +1,72 @@
+<svg width="236" height="236" viewBox="0 0 236 236" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="paper_front" x1="46" y1="58" x2="196" y2="200" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#fffdf8"/>
+<stop offset="65%" stop-color="#f4efe4"/>
+<stop offset="100%" stop-color="#e6ddcb"/>
+</linearGradient>
+<linearGradient id="paper_mid" x1="46" y1="58" x2="196" y2="200" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#d9cfbb"/>
+<stop offset="100%" stop-color="#b3a58a"/>
+</linearGradient>
+<linearGradient id="paper_back" x1="46" y1="58" x2="196" y2="200" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#b8aa8e"/>
+<stop offset="100%" stop-color="#8c7c60"/>
+</linearGradient>
+<linearGradient id="sheet_front" x1="30" y1="36" x2="160" y2="170" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#f3eee2"/>
+<stop offset="100%" stop-color="#d8cfbb"/>
+</linearGradient>
+<linearGradient id="sheet_back" x1="30" y1="36" x2="160" y2="170" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#a8997c"/>
+<stop offset="100%" stop-color="#7f7055"/>
+</linearGradient>
+<linearGradient id="photo" x1="58" y1="96" x2="116" y2="148" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#ffb347"/>
+<stop offset="100%" stop-color="#f06a00"/>
+</linearGradient>
+<linearGradient id="mast" x1="58" y1="70" x2="184" y2="86" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#3a4655"/>
+<stop offset="100%" stop-color="#232b35"/>
+</linearGradient>
+<radialGradient id="bloom_n" cx="78" cy="78" r="110" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="white" stop-opacity="0.6"/>
+<stop offset="100%" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<filter id="fshadow_n" x="24" y="40" width="190" height="186" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#2e210d" flood-opacity="0.5"/></filter>
+<clipPath id="front_clip">
+<path d="M54 58 H188 Q196 58 196 66 V188 Q196 196 188 196 H54 Q46 196 46 188 V66 Q46 58 54 58 Z"/>
+</clipPath>
+</defs>
+<g transform="rotate(-9 100 104)">
+<path d="M40 40 H162 Q170 40 170 48 V170 Q170 178 162 178 H40 Q32 178 32 170 V48 Q32 40 40 40 Z" fill="url(#sheet_back)"/>
+<path d="M40 37 H162 Q170 37 170 45 V167 Q170 175 162 175 H40 Q32 175 32 167 V45 Q32 37 40 37 Z" fill="url(#sheet_front)"/>
+<rect x="44" y="50" width="70" height="7" rx="3.5" fill="#8c7e66" fill-opacity="0.55"/>
+<rect x="44" y="64" width="112" height="4" rx="2" fill="#8c7e66" fill-opacity="0.35"/>
+<rect x="44" y="74" width="100" height="4" rx="2" fill="#8c7e66" fill-opacity="0.35"/>
+</g>
+<path d="M54 62 H188 Q196 62 196 70 V192 Q196 200 188 200 H54 Q46 200 46 192 V70 Q46 62 54 62 Z" fill="url(#paper_back)"/>
+<path d="M54 60 H188 Q196 60 196 68 V190 Q196 198 188 198 H54 Q46 198 46 190 V68 Q46 60 54 60 Z" fill="url(#paper_mid)"/>
+<path d="M54 58 H188 Q196 58 196 66 V188 Q196 196 188 196 H54 Q46 196 46 188 V66 Q46 58 54 58 Z" fill="url(#paper_front)" filter="url(#fshadow_n)"/>
+<g clip-path="url(#front_clip)">
+<circle cx="78" cy="78" r="110" fill="url(#bloom_n)"/>
+</g>
+<rect x="58" y="70" width="126" height="16" rx="4" fill="url(#mast)"/>
+<rect x="58" y="91" width="126" height="2.2" rx="1.1" fill="#3a4655" fill-opacity="0.75"/>
+<rect x="58" y="100" width="58" height="48" rx="6" fill="url(#photo)"/>
+<g fill="none" stroke="white" stroke-linecap="round" stroke-width="5">
+<path d="M70 118 A20 20 0 0 1 90 138"/>
+<path d="M70 106 A32 32 0 0 1 102 138"/>
+</g>
+<circle cx="72.5" cy="135.5" r="4.5" fill="white"/>
+<g fill="#8a8272">
+<rect x="124" y="101" width="60" height="4.5" rx="2.25"/>
+<rect x="124" y="111" width="54" height="4.5" rx="2.25"/>
+<rect x="124" y="121" width="60" height="4.5" rx="2.25"/>
+<rect x="124" y="131" width="46" height="4.5" rx="2.25"/>
+<rect x="124" y="141" width="56" height="4.5" rx="2.25"/>
+<rect x="58" y="158" width="126" height="4.5" rx="2.25"/>
+<rect x="58" y="168" width="118" height="4.5" rx="2.25"/>
+<rect x="58" y="178" width="84" height="4.5" rx="2.25"/>
+</g>
+</svg>

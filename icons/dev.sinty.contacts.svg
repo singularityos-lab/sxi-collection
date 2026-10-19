@@ -1,0 +1,30 @@
+<svg width="236" height="236" viewBox="0 0 236 236" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="rx_base" x1="0" y1="170" x2="0" y2="214" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3a4454"/><stop offset="1" stop-color="#1c222b"/></linearGradient>
+<linearGradient id="rx_rod" x1="0" y1="110" x2="0" y2="124" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#eef2f6"/><stop offset="0.5" stop-color="#9ea9b6"/><stop offset="1" stop-color="#5f6b79"/></linearGradient>
+<linearGradient id="rx_card" x1="60" y1="40" x2="176" y2="150" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f2f5f9"/><stop offset="1" stop-color="#dfe6ee"/></linearGradient>
+<linearGradient id="rx_card_b" x1="60" y1="40" x2="176" y2="150" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e8edf3"/><stop offset="1" stop-color="#c3ccd7"/></linearGradient>
+<linearGradient id="rx_tab" x1="0" y1="0" x2="0" y2="14" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffb15e"/><stop offset="1" stop-color="#eb6834"/></linearGradient>
+<radialGradient id="rx_avatar" cx="96" cy="86" r="26" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8fc4ff"/><stop offset="1" stop-color="#2a78d6"/></radialGradient>
+<radialGradient id="rx_knob" cx="0" cy="0" r="14" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff"/><stop offset="0.6" stop-color="#aab5c2"/><stop offset="1" stop-color="#5d6978"/></radialGradient>
+<filter id="rxshadow" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0d1424" flood-opacity="0.45"/></filter>
+</defs>
+<g filter="url(#rxshadow)">
+<path d="M58 170h120l16 34a8 8 0 0 1-7 11H49a8 8 0 0 1-7-11z" fill="url(#rx_base)"/>
+<rect x="72" y="136" width="10" height="38" rx="3" fill="#3a4454"/>
+<rect x="154" y="136" width="10" height="38" rx="3" fill="#3a4454"/>
+<rect x="40" y="130" width="156" height="12" rx="6" fill="url(#rx_rod)"/>
+<circle cx="36" cy="136" r="14" fill="url(#rx_knob)"/>
+<circle cx="200" cy="136" r="14" fill="url(#rx_knob)"/>
+<g transform="rotate(-9 118 150) translate(-10 8)"><rect x="56" y="44" width="124" height="98" rx="10" fill="url(#rx_card_b)"/></g><g transform="rotate(8 118 150) translate(10 6)"><rect x="56" y="44" width="124" height="98" rx="10" fill="url(#rx_card_b)"/></g>
+<rect x="56" y="40" width="124" height="112" rx="10" fill="url(#rx_card)"/><rect x="64" y="142" width="12" height="6" rx="3" fill="#c3ccd7"/><rect x="160" y="142" width="12" height="6" rx="3" fill="#c3ccd7"/>
+<path d="M140 40h28a4 4 0 0 1 4 4v8h-32z" fill="url(#rx_tab)"/>
+<circle cx="92" cy="84" r="24" fill="url(#rx_avatar)"/>
+<circle cx="92" cy="78" r="9" fill="#ffffff" opacity="0.95"/>
+<path d="M76 100c3-10 9-14 16-14s13 4 16 14" fill="#ffffff" opacity="0.95"/>
+<rect x="124" y="70" width="42" height="7" rx="3.5" fill="#2f3b4c"/>
+<rect x="124" y="84" width="34" height="5" rx="2.5" fill="#9aa8b8"/>
+<rect x="124" y="95" width="38" height="5" rx="2.5" fill="#9aa8b8"/>
+<rect x="68" y="122" width="100" height="5" rx="2.5" fill="#c6d1dc"/>
+</g>
+</svg>

@@ -1,0 +1,26 @@
+<svg width="236" height="236" viewBox="0 0 236 236" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="fm_paper" x1="60" y1="18" x2="180" y2="214" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff"/><stop offset="0.6" stop-color="#f2f7fa"/><stop offset="1" stop-color="#dde9f1"/></linearGradient>
+<linearGradient id="fm_side" x1="0" y1="196" x2="0" y2="224" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#93b4c6"/><stop offset="1" stop-color="#6f97ad"/></linearGradient>
+<linearGradient id="fm_fold" x1="150" y1="18" x2="194" y2="62" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e6f0f5"/><stop offset="1" stop-color="#aecbdb"/></linearGradient>
+<radialGradient id="fm_bloom" cx="70" cy="30" r="170" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="white" stop-opacity="0.5"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
+<clipPath id="fm_clip"><path d="M60 18H150L194 62V196Q194 214 176 214H60Q42 214 42 196V36Q42 18 60 18Z"/></clipPath>
+<filter id="fm_shadow" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#1a3342" flood-opacity="0.4"/></filter>
+<filter id="fm_fold_shadow" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#3d7a94" flood-opacity="0.35"/></filter>
+<linearGradient id="fm_ink" x1="60" y1="70" x2="178" y2="132" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#a47bff"/><stop offset="0.55" stop-color="#7c4dea"/><stop offset="1" stop-color="#5a2fc2"/></linearGradient>
+<linearGradient id="fm_rule" x1="66" y1="0" x2="170" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#a47bff"/><stop offset="0.55" stop-color="#7c4dea"/><stop offset="1" stop-color="#5a2fc2"/></linearGradient>
+</defs>
+<g filter="url(#fm_shadow)">
+<path d="M60 18H150L194 62V196Q194 214 176 214H60Q42 214 42 196V36Q42 18 60 18Z" fill="url(#fm_side)" transform="translate(0 10)"/>
+<path d="M60 18H150L194 62V196Q194 214 176 214H60Q42 214 42 196V36Q42 18 60 18Z" fill="url(#fm_paper)"/>
+</g>
+<g clip-path="url(#fm_clip)"><rect width="236" height="236" fill="url(#fm_bloom)"/></g>
+<path d="M60 18H150L194 62V196Q194 214 176 214H60Q42 214 42 196V36Q42 18 60 18Z" stroke="white" stroke-opacity="0.8" stroke-width="4" clip-path="url(#fm_clip)"/>
+<g filter="url(#fm_fold_shadow)"><path d="M150 18V50Q150 62 162 62H194Z" fill="url(#fm_fold)" stroke="url(#fm_fold)" stroke-width="2" stroke-linejoin="round"/></g>
+<path d="M62 104L74 98L90 130L110 74H176" stroke="url(#fm_ink)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="118" y="88" width="24" height="18" rx="9" fill="#c9b3ff"/>
+<rect x="146" y="88" width="26" height="18" rx="9" fill="#e4d8ff"/>
+<rect x="88" y="142" width="60" height="17" rx="8.5" fill="#c9b3ff"/>
+<rect x="66" y="167" width="104" height="8" rx="4" fill="url(#fm_rule)"/>
+<rect x="98" y="183" width="40" height="17" rx="8.5" fill="#e4d8ff"/>
+</svg>
