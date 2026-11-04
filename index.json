@@ -2,8 +2,8 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 51,
-  "generated": "2026-11-04T10:53:19Z",
+  "sequence": 52,
+  "generated": "2026-11-04T14:37:11Z",
   "apps": [
     {
       "id": "dev.sinty.atelier",
@@ -430,6 +430,16 @@
       "homepage": "https://github.com/singularityos-lab/singularity-messages",
       "license": "GPL-3.0",
       "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 2,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.messages-2/dev.sinty.messages-2.sxi",
+          "size": 368640,
+          "sha256": "a23f479213b99fa9e8ec221d12151893f1e854e21250dc7dad386add1afacc4d",
+          "verity": "8606bde6da7d6f6355fd080bab2a5c6a0cb5f6c119fae895b897b5eef5c4fd0f",
+          "slot": "ff670584a2d793509d665d40654206a7575e3ff5220cac33f7e27472f42c76a9",
+          "arch": "amd64"
+        },
         {
           "version": "0.1.0",
           "sequence": 1,
