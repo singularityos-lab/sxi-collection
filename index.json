@@ -2,8 +2,8 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 71,
-  "generated": "2026-11-05T15:48:57Z",
+  "sequence": 72,
+  "generated": "2026-11-05T16:21:24Z",
   "apps": [
     {
       "id": "dev.sinty.atelier",
@@ -353,6 +353,16 @@
       "homepage": "https://github.com/singularityos-lab/singularity-keyframe",
       "license": "GPL-3.0",
       "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 2,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.keyframe-2/dev.sinty.keyframe-2.sxi",
+          "size": 5427200,
+          "sha256": "e5da35896dc916f42bd697f74a275b057de04ca3c3e9c7e2db5601760233ae77",
+          "verity": "9efdc8669a36a442d39da19e89c38f01a4c17bc148c7fea403a35cd7f5bf69a4",
+          "slot": "2637fe906b9c945ac2923f90c796eb37cf60e47d4275ee49201cb1828f83dd49",
+          "arch": "amd64"
+        },
         {
           "version": "0.1.0",
           "sequence": 1,
