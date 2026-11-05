@@ -2,8 +2,8 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 82,
-  "generated": "2026-11-05T17:25:13Z",
+  "sequence": 83,
+  "generated": "2026-11-05T17:28:53Z",
   "apps": [
     {
       "id": "dev.sinty.atelier",
@@ -800,6 +800,16 @@
       "homepage": "https://github.com/singularityos-lab/singularity-slides",
       "license": "GPL-3.0",
       "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 2,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.slides-2/dev.sinty.slides-2.sxi",
+          "size": 2465792,
+          "sha256": "2192e756ba48884ee8ab38e16d08a71d4f6ab697078af37999a1f7a90277ee6d",
+          "verity": "b31fb56c08c3493396993ac47c9b55a80f2baec8a0365c04d309db9fc844e4f9",
+          "slot": "dade3cc98879aa72fdf96623db896b2f9a25d74d1e0eb7fefce02bb6e4216889",
+          "arch": "amd64"
+        },
         {
           "version": "0.1.0",
           "sequence": 1,
