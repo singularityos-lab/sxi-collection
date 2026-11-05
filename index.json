@@ -2,8 +2,8 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 64,
-  "generated": "2026-11-05T10:46:26Z",
+  "sequence": 65,
+  "generated": "2026-11-05T15:01:55Z",
   "apps": [
     {
       "id": "dev.sinty.atelier",
@@ -124,6 +124,16 @@
       "homepage": "https://github.com/singularityos-lab/singularity-contacts",
       "license": "GPL-3.0",
       "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 2,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.contacts-2/dev.sinty.contacts-2.sxi",
+          "size": 249856,
+          "sha256": "c3def5543d9f0bac406f7bb5a4987c4bc9495c2729a91383b4282ad6078b5241",
+          "verity": "a4eb63e2a2174168e02b32038ba94d5e5eca12562330806298e8f59962fe993b",
+          "slot": "86a882965adac36dd022cbb2a9ff718cd93ad2b523ad7ce75666cd87e2c7e510",
+          "arch": "amd64"
+        },
         {
           "version": "0.1.0",
           "sequence": 1,
