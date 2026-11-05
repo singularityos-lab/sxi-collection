@@ -2,8 +2,8 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 77,
-  "generated": "2026-11-05T16:55:01Z",
+  "sequence": 78,
+  "generated": "2026-11-05T17:10:00Z",
   "apps": [
     {
       "id": "dev.sinty.atelier",
@@ -906,6 +906,16 @@
       "license": "GPL-3.0",
       "releases": [
         {
+          "version": "\u003e= 0.59.0",
+          "sequence": 4,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.vector-4/dev.sinty.vector-4.sxi",
+          "size": 3653632,
+          "sha256": "998a05253076fb57528d14c4e6f56d7e7671605cc414351214cb6819fa34df2f",
+          "verity": "64375587363e000aeadb42a4f9ce3ee1791cc2d7f2316c42439026ff62dbda32",
+          "slot": "f01d6efae7904fdee4a25f72b2f87c1593a4ee983d4b979cdfcdfa725e0165ff",
+          "arch": "amd64"
+        },
+        {
           "version": "0.2.0",
           "sequence": 3,
           "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.vector-3/dev.sinty.vector-3.sxi",
@@ -913,16 +923,6 @@
           "sha256": "2e1a6e9b28d4fbdf50a99a8e7370f422abba7bfa8feae12ce794d006b69f42e1",
           "verity": "677de6092bec41fb13c622454e4be26aa65897f003bf65b0593b51b52d79374c",
           "slot": "79cabeece7e21b376cf76db83d6a8a4d474fdd58d9eac5f097361e653c8fb70e",
-          "arch": "amd64"
-        },
-        {
-          "version": "0.2.0",
-          "sequence": 2,
-          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.vector-2/dev.sinty.vector-2.sxi",
-          "size": 19677184,
-          "sha256": "118ca2e7fa58db09843199ea3d84fe43d69966acb9f9c68cdc659e18d562a7ad",
-          "verity": "31496d97c3c949f5bde702d17776686ebe65a642ee251546c8edec8870a03ff7",
-          "slot": "9fb059df9e9eaba6ee207db8463f4b34facf563be560bcc632243ae5e43406ce",
           "arch": "amd64"
         }
       ]
