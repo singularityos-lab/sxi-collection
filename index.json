@@ -2,8 +2,8 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 65,
-  "generated": "2026-11-05T15:01:55Z",
+  "sequence": 66,
+  "generated": "2026-11-05T15:07:04Z",
   "apps": [
     {
       "id": "dev.sinty.atelier",
@@ -158,6 +158,16 @@
       "homepage": "https://github.com/singularityos-lab/singularity-database",
       "license": "GPL-3.0",
       "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 2,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.database-2/dev.sinty.database-2.sxi",
+          "size": 3252224,
+          "sha256": "c2b958d55229f032cf65cb2d26000e0f9d12abfc14e35b69c1f17f997160909e",
+          "verity": "ad9248584a9e50d0963bdee0d24c0fcc3bf4e19a5ae59ed0d5513eebaf7beb76",
+          "slot": "77ee02e84e5159b1ba819c4f91848bd70a204de7ed1822806bf082fc21df3ede",
+          "arch": "amd64"
+        },
         {
           "version": "0.1.0",
           "sequence": 1,
