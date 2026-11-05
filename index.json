@@ -2,8 +2,8 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 99,
-  "generated": "2026-11-05T21:34:58Z",
+  "sequence": 100,
+  "generated": "2026-11-05T21:36:47Z",
   "apps": [
     {
       "id": "dev.sinty.atelier",
@@ -525,6 +525,16 @@
       "homepage": "https://github.com/singularityos-lab/singularity-montage",
       "license": "GPL-3.0",
       "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 2,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.montage-2/dev.sinty.montage-2.sxi",
+          "size": 1048576,
+          "sha256": "9b4c088ca50c15aa0dbffe60347c108491b4b0f30df4d2491568f694c367539c",
+          "verity": "e1dfbce7ff359f8a0fc73053691106b1bd3994bf63ac8d8765d75de5dc7e1567",
+          "slot": "c144f745394ba7d9df7c101818a263951d91afa193781637b3fc1bfec3a27a18",
+          "arch": "amd64"
+        },
         {
           "version": "0.2.0",
           "sequence": 1,
