@@ -2,8 +2,8 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 57,
-  "generated": "2026-11-04T15:11:08Z",
+  "sequence": 58,
+  "generated": "2026-11-05T08:28:09Z",
   "apps": [
     {
       "id": "dev.sinty.atelier",
@@ -964,6 +964,16 @@
       "homepage": "https://github.com/singularityos-lab/singularity-write",
       "license": "GPL-3.0",
       "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 2,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.write-2/dev.sinty.write-2.sxi",
+          "size": 1863680,
+          "sha256": "23f3bb2099d85fb141be75ddcd73e89714e5c8f8ca55c385eb76fe5455d022e2",
+          "verity": "9bb68b8e01445c32609272715ed5dada6c52417327221d4907464694b83abf21",
+          "slot": "9da86285573c4fd8d5466335cc077812297a920f6d9732ce70ca8f88dfd2817e",
+          "arch": "amd64"
+        },
         {
           "version": "0.1.0",
           "sequence": 1,
