@@ -2,8 +2,8 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 78,
-  "generated": "2026-11-05T17:10:00Z",
+  "sequence": 79,
+  "generated": "2026-11-05T17:10:20Z",
   "apps": [
     {
       "id": "dev.sinty.atelier",
@@ -964,6 +964,16 @@
       "homepage": "https://github.com/singularityos-lab/singularity-voice",
       "license": "GPL-3.0",
       "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 2,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.voice-2/dev.sinty.voice-2.sxi",
+          "size": 200704,
+          "sha256": "64d74f0743039713a303bdf289aa308ba4de1178b15a9620681d24a26ef50bd9",
+          "verity": "23c022ee902a40f6ee0c295a516e3653c109692dbb7e3f4711f298c16103378e",
+          "slot": "f6862c211996811d5bf76999bab7efe1e7acc0dcd7237e24eee8246129ca206f",
+          "arch": "amd64"
+        },
         {
           "version": "0.1.0",
           "sequence": 1,
