@@ -2,8 +2,8 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 101,
-  "generated": "2026-11-05T22:36:24Z",
+  "sequence": 102,
+  "generated": "2026-11-06T00:10:43Z",
   "apps": [
     {
       "id": "dev.sinty.atelier",
@@ -560,6 +560,16 @@
       "homepage": "https://github.com/singularityos-lab/singularity-music",
       "license": "GPL-3.0",
       "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 2,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.music-2/dev.sinty.music-2.sxi",
+          "size": 376832,
+          "sha256": "7a98d7db31c1f3beafd539e7837b4d9499bd1f2f790fadeb092a28b70a925de0",
+          "verity": "346d68472cda9dffe4b97cadd63a77dd27249b745b0f8ce2448d0697d7805436",
+          "slot": "fd053621e1bebaa50d230597375464309ada3dc7e68d703806c3090991b2bb55",
+          "arch": "amd64"
+        },
         {
           "version": "0.1.0",
           "sequence": 1,
