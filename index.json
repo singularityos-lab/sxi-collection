@@ -2,8 +2,8 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 109,
-  "generated": "2026-11-06T08:57:55Z",
+  "sequence": 111,
+  "generated": "2026-11-11T12:55:47Z",
   "apps": [
     {
       "id": "dev.sinty.atelier",
@@ -425,6 +425,38 @@
           "sha256": "c222ef8f1abfd8dc7d8296fc266da0302b10538be38b806bc1107d2540f360d0",
           "verity": "c6cf307835d171ba47363216e785560ea9f20867bed2ea3869e432d2a4e0c4db",
           "slot": "46984f21e2f8efb0dcdbf1d0ecc9566c779ca3e6e05c4a8b99a789d5aa8ed625",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.localmodel",
+      "name": "Local Model",
+      "summary": "Answers Sinty AI on this computer, without sending anything out",
+      "categories": [
+        "Utility"
+      ],
+      "homepage": "https://github.com/singularityos-lab/sinty-local-model",
+      "license": "GPL-3.0-or-later",
+      "releases": [
+        {
+          "version": "1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.localmodel-1/dev.sinty.localmodel-1-arm64.sxi",
+          "size": 10481664,
+          "sha256": "e504f79ea44ab0601148c1a5f702ffdd96175aeb871de5a692ce98044926279c",
+          "verity": "5b3dfaa3a36c70741165e4390bf81db928f1a582105d5f8c4b0e18fd0d63dc05",
+          "slot": "58452670a0eeda491eec01b6ef57eff9ed361b473683dc76ff056af76f915f70",
+          "arch": "arm64"
+        },
+        {
+          "version": "1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.localmodel-1/dev.sinty.localmodel-1-amd64.sxi",
+          "size": 11051008,
+          "sha256": "74b07755b3aa5cfcf498e3ab9afef0e38d1272d3b8c7af4f7263f2113a8106a6",
+          "verity": "c0a156b009e8f26b0e6b111049d690140e38308d5de6c749cacd024af43b6b37",
+          "slot": "8977e0583fd05174576906450f3bd431f3eedd2b2ba186240bfd3cc7a71c2a9a",
           "arch": "amd64"
         }
       ]
