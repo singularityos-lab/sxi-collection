@@ -1,0 +1,33 @@
+<svg width="236" height="236" viewBox="0 0 236 236" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="front" x1="24" y1="26" x2="210" y2="212" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#6ff0b4"/>
+<stop offset="55%" stop-color="#22c47e"/>
+<stop offset="100%" stop-color="#0f9a5f"/>
+</linearGradient>
+<linearGradient id="depth" x1="24" y1="26" x2="210" y2="220" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#128a57"/>
+<stop offset="100%" stop-color="#075c39"/>
+</linearGradient>
+<radialGradient id="bloom" cx="46" cy="40" r="140" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="white" stop-opacity="0.5"/>
+<stop offset="100%" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<filter id="shadow" x="4" y="14" width="224" height="222" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#04452a" flood-opacity="0.5"/></filter>
+<clipPath id="clip">
+<path d="M60 30C70 26 82 30 86 40L100 76C103 84 100 92 92 96L80 102C88 128 108 148 134 156L140 144C144 136 152 133 160 136L196 150C206 154 210 166 206 176L200 192C194 206 180 214 164 212C96 202 34 140 24 72C22 56 30 42 44 36Z"/>
+</clipPath>
+</defs>
+<path d="M60 38C70 34 82 38 86 48L100 84C103 92 100 100 92 104L80 110C88 136 108 156 134 164L140 152C144 144 152 141 160 144L196 158C206 162 210 174 206 184L200 200C194 214 180 222 164 220C96 210 34 148 24 80C22 64 30 50 44 44Z" fill="url(#depth)"/>
+<path d="M60 30C70 26 82 30 86 40L100 76C103 84 100 92 92 96L80 102C88 128 108 148 134 156L140 144C144 136 152 133 160 136L196 150C206 154 210 166 206 176L200 192C194 206 180 214 164 212C96 202 34 140 24 72C22 56 30 42 44 36Z" fill="url(#front)" filter="url(#shadow)"/>
+<g clip-path="url(#clip)">
+<circle cx="46" cy="40" r="140" fill="url(#bloom)"/>
+</g>
+<path d="M60 30C70 26 82 30 86 40L100 76C103 84 100 92 92 96L80 102C88 128 108 148 134 156L140 144C144 136 152 133 160 136L196 150C206 154 210 166 206 176L200 192C194 206 180 214 164 212C96 202 34 140 24 72C22 56 30 42 44 36Z" stroke="white" stroke-opacity="0.45" stroke-width="2"/>
+<g stroke-width="12" stroke-linecap="round">
+<path d="M130 60C148 64 160 76 164 94" stroke="url(#depth)"/>
+<path d="M134 28C170 34 196 60 202 96" stroke="url(#depth)"/>
+<path d="M130 54C148 58 160 70 164 88" stroke="url(#front)"/>
+<path d="M134 22C170 28 196 54 202 90" stroke="url(#front)"/>
+</g>
+</svg>
