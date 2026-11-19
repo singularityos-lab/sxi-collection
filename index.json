@@ -2,8 +2,8 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 122,
-  "generated": "2026-11-19T15:53:52Z",
+  "sequence": 123,
+  "generated": "2026-11-19T15:54:34Z",
   "apps": [
     {
       "id": "dev.sinty.atelier",
@@ -84,7 +84,7 @@
           "sha256": "920e0ff1ef66a63cd72d84bc35f7c89508c1323e4baf9601185fa888e056f5c1",
           "verity": "a38684887596a380338e22e80d7160b7a7345c09c1ebaa39f655811cfdc310c5",
           "slot": "29e10861d37eed31fdf463bd771705882869ca6d40e5d940e3466b95dfd5b774",
-          "arch": "amd64"
+          "arch": "arm64"
         },
         {
           "version": "0.1.0",
@@ -94,6 +94,16 @@
           "sha256": "417ad88d3a1fcf842c1286ebc0fd60ea97f03bbd4f163f3a6143cb52190d7de8",
           "verity": "8dd6cdfb7b7df90792c507e985ededd7f247e9270e57a95767d9c0202d4190e5",
           "slot": "ea3251aa9d455ab3ffa9c1d79c1a81d4c58c978cf2ac0a329fc0606835deead3",
+          "arch": "amd64"
+        },
+        {
+          "version": "0.1.0",
+          "sequence": 7,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.browser-7/dev.sinty.browser-7.sxi",
+          "size": 1236992,
+          "sha256": "053f1a217a7e04f067118c21448cebd3b0ce4edc0a94cdff1e05dcfc91ddf9b2",
+          "verity": "d70979fb62555f420267ef0e3390709cdca34a9d5de13f3ce070a8e4b9a89eeb",
+          "slot": "ce759b80224e86d3c8e6e8e1347ad7c2d61066bb6c231d73463c4f7c323deb85",
           "arch": "amd64"
         }
       ]
