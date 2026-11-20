@@ -2,8 +2,8 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 183,
-  "generated": "2026-11-20T11:30:23Z",
+  "sequence": 185,
+  "generated": "2026-11-20T15:00:59Z",
   "apps": [
     {
       "id": "dev.sinty.atelier",
@@ -641,6 +641,40 @@
           "sha256": "a889d1f8e67851a41c94d1a82b17dff285b0660dd5457333b57a616f386287af",
           "verity": "8e639d91199ddf520ea8c55841bb462b4a32c1be837f8bf3e677403e71d40b8f",
           "slot": "3d2fcb41d155f3a2023677516010765e5fe8995f19aa066c7c580a8f6702b2c3",
+          "arch": "amd64"
+        }
+      ]
+    },
+    {
+      "id": "dev.sinty.ledstudio",
+      "name": "LED Studio",
+      "summary": "Draw, animate and test scenes for LED matrices",
+      "icon": "https://raw.githubusercontent.com/singularityos-lab/sxi-collection/main/icons/dev.sinty.ledstudio.svg",
+      "categories": [
+        "Graphics",
+        "Development"
+      ],
+      "homepage": "https://github.com/singularityos-lab/singularity-ledstudio",
+      "license": "GPL-3.0",
+      "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 2,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.ledstudio-2/dev.sinty.ledstudio-2.sxi",
+          "size": 77824,
+          "sha256": "1371dd809b130324df5ed556717b514fad115f021aa1bb1132aca99e7d004c17",
+          "verity": "daa320a6c2ce06a4d883b07743f2c8719fe259ac54cc74865a42530c93249926",
+          "slot": "19d23ef10db38601f870c757089797e3a966d60b88676068569b2752cdb8af6f",
+          "arch": "arm64"
+        },
+        {
+          "version": "0.1.0",
+          "sequence": 1,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.ledstudio-1/dev.sinty.ledstudio-1.sxi",
+          "size": 81920,
+          "sha256": "905e9bf0ea036c034b8396e957f3632d864797094432c6389770223e31cb052c",
+          "verity": "857d277eff611ec59fc871d2f33010cef9c1b9be231d9e372dde7b6dcf43fbb0",
+          "slot": "db8d805d6db5f9bc940abed6455123c9d5e1e3dbca577cba3d2c94dc23ef23d9",
           "arch": "amd64"
         }
       ]
