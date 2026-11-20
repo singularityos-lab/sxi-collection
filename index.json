@@ -2,8 +2,8 @@
   "schema": 1,
   "root": "bff7101c7ac9d65c9e9bc4073c25b9db95b2bfedb89b76f180f6028417c766c1",
   "name": "Singularity Collection",
-  "sequence": 153,
-  "generated": "2026-11-19T18:40:36Z",
+  "sequence": 154,
+  "generated": "2026-11-20T09:57:01Z",
   "apps": [
     {
       "id": "dev.sinty.atelier",
@@ -96,6 +96,16 @@
       "homepage": "https://github.com/singularityos-lab/singularity-browser",
       "license": "GPL-3.0",
       "releases": [
+        {
+          "version": "0.1.0",
+          "sequence": 10,
+          "url": "https://github.com/singularityos-lab/sxi-collection/releases/download/dev.sinty.browser-10/dev.sinty.browser-10.sxi",
+          "size": 1204224,
+          "sha256": "af1494b666719643ae38e40067b495213bd5925370e0f195dbf936514c2e3993",
+          "verity": "36e0847af286792cf88d49662a813bd52861f3a10e73a3ddf809d253fc64a779",
+          "slot": "e6af9a7e3b9dcc473a17b8779301f5ffb9c89b5f51abd308603dde888a4672f5",
+          "arch": "arm64"
+        },
         {
           "version": "0.1.0",
           "sequence": 9,
