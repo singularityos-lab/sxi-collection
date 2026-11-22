@@ -1,50 +1,43 @@
-<svg width="236" height="236" viewBox="0 0 236 236" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="vo_body" x1="84" y1="18" x2="160" y2="150" gradientUnits="userSpaceOnUse">
-<stop offset="0" stop-color="#ff8a70"/>
-<stop offset="0.5" stop-color="#f0443a"/>
-<stop offset="1" stop-color="#c3232a"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="236" height="236" viewBox="-0.153846 0.027650 236.307692 235.944700" preserveAspectRatio="none"><defs><filter id="shadow1" x="0" y="0" width="236" height="236" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#4c0d0d" flood-opacity="0.45"/></filter></defs><g filter="url(#shadow1)"><g fill="none"><defs><linearGradient id="l2-vo_base_depth" x1="118" y1="196" x2="118" y2="220" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#7d8692" />
+<stop offset="1" stop-color="#555d68" />
 </linearGradient>
-<linearGradient id="vo_depth" x1="118" y1="30" x2="118" y2="158" gradientUnits="userSpaceOnUse">
-<stop offset="0" stop-color="#a51b22"/>
-<stop offset="1" stop-color="#6e1016"/>
+</defs><rect x="70" y="196" width="96" height="22" rx="11" fill="url(#l2-vo_base_depth)" />
+</g><g fill="none"><defs><linearGradient id="l3-vo_base" x1="118" y1="188" x2="118" y2="214" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#f3f5f8" />
+<stop offset="1" stop-color="#a7b0bc" />
 </linearGradient>
-<radialGradient id="vo_bloom" cx="92" cy="40" r="90" gradientUnits="userSpaceOnUse">
-<stop offset="0" stop-color="white" stop-opacity="0.38"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
+</defs><rect x="70" y="188" width="96" height="22" rx="11" fill="url(#l3-vo_base)" />
+</g><g fill="none"><defs><linearGradient id="l4-vo_metal" x1="40" y1="0" x2="196" y2="0" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#8d96a3" />
+<stop offset="0.45" stop-color="#eef1f5" />
+<stop offset="1" stop-color="#9aa3af" />
+</linearGradient>
+</defs><rect x="110" y="160" width="16" height="34" rx="4" fill="url(#l4-vo_metal)" />
+</g><g fill="none"><path d="M52 96C52 136 81 166 118 166C155 166 184 136 184 96" stroke="#6b7480" stroke-width="13" stroke-linecap="round" transform="translate(0 3)" />
+</g><g fill="none"><defs><linearGradient id="l6-vo_metal" x1="40" y1="0" x2="196" y2="0" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#8d96a3" />
+<stop offset="0.45" stop-color="#eef1f5" />
+<stop offset="1" stop-color="#9aa3af" />
+</linearGradient>
+</defs><path d="M52 96C52 136 81 166 118 166C155 166 184 136 184 96" stroke="url(#l6-vo_metal)" stroke-width="12" stroke-linecap="round" />
+</g><g fill="none"><defs><linearGradient id="l7-vo_depth" x1="118" y1="30" x2="118" y2="158" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#a51b22" />
+<stop offset="1" stop-color="#6e1016" />
+</linearGradient>
+</defs><rect x="80" y="26" width="76" height="132" rx="38" fill="url(#l7-vo_depth)" />
+</g><g fill="none"><defs><linearGradient id="l8-vo_body" x1="84" y1="18" x2="160" y2="150" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#ff8a70" />
+<stop offset="0.5" stop-color="#f0443a" />
+<stop offset="1" stop-color="#c3232a" />
+</linearGradient>
+</defs><rect x="80" y="18" width="76" height="132" rx="38" fill="url(#l8-vo_body)" />
+</g></g><defs><clipPath id="clip9"><path d="M118 18 H118 A38 38 0 0 1 156 56 V112 A38 38 0 0 1 118 150 H118 A38 38 0 0 1 80 112 V56 A38 38 0 0 1 118 18 Z" clip-rule="nonzero"/></clipPath></defs><g clip-path="url(#clip9)"><g fill="none"><defs><radialGradient id="l10-vo_bloom" cx="92" cy="40" r="90" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="white" stop-opacity="0.38" />
+<stop offset="1" stop-color="white" stop-opacity="0" />
 </radialGradient>
-<linearGradient id="vo_metal" x1="40" y1="0" x2="196" y2="0" gradientUnits="userSpaceOnUse">
-<stop offset="0" stop-color="#8d96a3"/>
-<stop offset="0.45" stop-color="#eef1f5"/>
-<stop offset="1" stop-color="#9aa3af"/>
-</linearGradient>
-<linearGradient id="vo_base" x1="118" y1="188" x2="118" y2="214" gradientUnits="userSpaceOnUse">
-<stop offset="0" stop-color="#f3f5f8"/>
-<stop offset="1" stop-color="#a7b0bc"/>
-</linearGradient>
-<linearGradient id="vo_base_depth" x1="118" y1="196" x2="118" y2="220" gradientUnits="userSpaceOnUse">
-<stop offset="0" stop-color="#7d8692"/>
-<stop offset="1" stop-color="#555d68"/>
-</linearGradient>
-<clipPath id="vo_clip">
-<rect x="80" y="18" width="76" height="132" rx="38"/>
-</clipPath>
-<filter id="vo_shadow" x="0" y="0" width="236" height="236" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#4c0d0d" flood-opacity="0.45"/></filter>
-</defs>
-<g filter="url(#vo_shadow)">
-<rect x="70" y="196" width="96" height="22" rx="11" fill="url(#vo_base_depth)"/>
-<rect x="70" y="188" width="96" height="22" rx="11" fill="url(#vo_base)"/>
-<rect x="110" y="160" width="16" height="34" rx="4" fill="url(#vo_metal)"/>
-<path d="M52 96C52 136 81 166 118 166C155 166 184 136 184 96" stroke="#6b7480" stroke-width="13" stroke-linecap="round" transform="translate(0 3)"/>
-<path d="M52 96C52 136 81 166 118 166C155 166 184 136 184 96" stroke="url(#vo_metal)" stroke-width="12" stroke-linecap="round"/>
-<rect x="80" y="26" width="76" height="132" rx="38" fill="url(#vo_depth)"/>
-<rect x="80" y="18" width="76" height="132" rx="38" fill="url(#vo_body)"/>
-</g>
-<g clip-path="url(#vo_clip)">
-<rect x="80" y="18" width="76" height="132" fill="url(#vo_bloom)"/>
-<path d="M96 46H140M92 62H144M92 78H144M92 94H144M96 110H140" stroke="#7a1117" stroke-opacity="0.55" stroke-width="7" stroke-linecap="round"/>
-<path d="M96 45H140M92 61H144M92 77H144M92 93H144M96 109H140" stroke="white" stroke-opacity="0.22" stroke-width="2.5" stroke-linecap="round"/>
-</g>
-<rect x="81.5" y="19.5" width="73" height="129" rx="36.5" stroke="white" stroke-opacity="0.3" stroke-width="3"/>
-<path d="M92 50A28 28 0 0 1 106 28" stroke="white" stroke-opacity="0.55" stroke-width="6" stroke-linecap="round"/>
-</svg>
+</defs><rect x="80" y="18" width="76" height="132" fill="url(#l10-vo_bloom)" />
+</g><g fill="none"><path d="M96 46H140M92 62H144M92 78H144M92 94H144M96 110H140" stroke="#7a1117" stroke-opacity="0.55" stroke-width="7" stroke-linecap="round" />
+</g><g fill="none"><path d="M96 45H140M92 61H144M92 77H144M92 93H144M96 109H140" stroke="white" stroke-opacity="0.22" stroke-width="2.5" stroke-linecap="round" />
+</g></g><defs><clipPath id="rim13"><path d="M118 18H118A38 38 0 0 1 156 56V112A38 38 0 0 1 118 150H118A38 38 0 0 1 80 112V56A38 38 0 0 1 118 18Z" clip-rule="nonzero"/></clipPath><linearGradient id="rim13g0" x1="80" y1="18" x2="137" y2="150" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.200"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.100"/></linearGradient><linearGradient id="rim13g1" x1="80" y1="18" x2="137" y2="150" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.950"/><stop offset="0.45" stop-color="#ffffff" stop-opacity="0.600"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.250"/></linearGradient><linearGradient id="rim13g2" x1="80" y1="18" x2="137" y2="150" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.050"/><stop offset="0.7" stop-color="#ffffff" stop-opacity="0.150"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.420"/></linearGradient></defs><g clip-path="url(#rim13)"><path d="M118 18H118A38 38 0 0 1 156 56V112A38 38 0 0 1 118 150H118A38 38 0 0 1 80 112V56A38 38 0 0 1 118 18Z" fill="none" stroke="url(#rim13g0)" stroke-width="3"/><path d="M118 18H118A38 38 0 0 1 156 56V112A38 38 0 0 1 118 150H118A38 38 0 0 1 80 112V56A38 38 0 0 1 118 18ZM119.68 20.8 H119.68 A38 38 0 0 1 157.68 58.8 V114.8 A38 38 0 0 1 119.68 152.8 H119.68 A38 38 0 0 1 81.68 114.8 V58.8 A38 38 0 0 1 119.68 20.8 Z" fill="url(#rim13g1)" fill-rule="evenodd"/><path d="M118 18H118A38 38 0 0 1 156 56V112A38 38 0 0 1 118 150H118A38 38 0 0 1 80 112V56A38 38 0 0 1 118 18ZM117.04 16.4 H117.04 A38 38 0 0 1 155.04 54.4 V110.4 A38 38 0 0 1 117.04 148.4 H117.04 A38 38 0 0 1 79.04 110.4 V54.4 A38 38 0 0 1 117.04 16.4 Z" fill="url(#rim13g2)" fill-rule="evenodd"/></g><g fill="none"><path d="M92 50A28 28 0 0 1 106 28" stroke="white" stroke-opacity="0.55" stroke-width="6" stroke-linecap="round" />
+</g></svg>

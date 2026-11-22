@@ -1,36 +1,62 @@
-<svg width="236" height="236" viewBox="0 0 236 236" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="le_back" x1="26" y1="40" x2="210" y2="204" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#c2412c"/><stop offset="1" stop-color="#8f2618"/></linearGradient>
-<linearGradient id="le_front" x1="40" y1="112" x2="196" y2="210" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff8a5c"/><stop offset="0.6" stop-color="#f0603a"/><stop offset="1" stop-color="#d4442a"/></linearGradient>
-<linearGradient id="le_side" x1="26" y1="118" x2="118" y2="204" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff9d73"/><stop offset="1" stop-color="#e5543a"/></linearGradient>
-<linearGradient id="le_paper" x1="56" y1="44" x2="180" y2="174" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#fbf6ec"/><stop offset="1" stop-color="#ece2cf"/></linearGradient>
-<linearGradient id="le_stamp" x1="150" y1="56" x2="176" y2="86" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5aa8ff"/><stop offset="1" stop-color="#1f62d0"/></linearGradient>
-<radialGradient id="le_bloom" cx="70" cy="120" r="150" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="white" stop-opacity="0.38"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
-<clipPath id="le_front_clip"><path d="M26 120 L118 170 L210 120 V190 Q210 204 196 204 H40 Q26 204 26 190 Z"/></clipPath>
-<filter id="le_shadow" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#4c1208" flood-opacity="0.42"/></filter>
-<filter id="le_lift" x="30" y="24" width="176" height="180" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#5a1a0e" flood-opacity="0.35"/>
-</filter>
-</defs>
-<g filter="url(#le_shadow)">
-<path d="M40 100 H196 Q210 100 210 114 V190 Q210 204 196 204 H40 Q26 204 26 190 V114 Q26 100 40 100 Z" fill="url(#le_back)"/>
-<path d="M32 106 L108 52 Q118 44 128 52 L204 106 Z" fill="#a8321f" stroke="#a8321f" stroke-width="8" stroke-linejoin="round"/>
-<g filter="url(#le_lift)">
-<rect x="56" y="42" width="124" height="140" rx="9" fill="url(#le_paper)"/>
-<rect x="148" y="54" width="22" height="26" rx="3" fill="url(#le_stamp)"/>
-<rect x="152" y="58" width="14" height="18" rx="2" stroke="white" stroke-opacity="0.7" stroke-width="2"/>
-<rect x="70" y="58" width="56" height="8" rx="4" fill="#2c3440"/>
-<rect x="70" y="80" width="96" height="6" rx="3" fill="#8a7f6e" fill-opacity="0.55"/>
-<rect x="70" y="94" width="88" height="6" rx="3" fill="#8a7f6e" fill-opacity="0.55"/>
-<rect x="70" y="108" width="96" height="6" rx="3" fill="#8a7f6e" fill-opacity="0.55"/>
-<rect x="70" y="122" width="60" height="6" rx="3" fill="#8a7f6e" fill-opacity="0.55"/>
-</g>
-<path d="M26 120 L118 170 L210 120 V190 Q210 204 196 204 H40 Q26 204 26 190 Z" fill="url(#le_front)"/>
-<g clip-path="url(#le_front_clip)">
-<path d="M20 124 L102 196 L20 212 Z" fill="url(#le_side)" fill-opacity="0.55"/>
-<path d="M216 124 L134 196 L216 212 Z" fill="#c8402a" fill-opacity="0.35"/>
-<rect x="0" y="0" width="236" height="236" fill="url(#le_bloom)"/>
-</g>
-<path d="M28 121 L118 170 L208 121" stroke="#ffc4a8" stroke-opacity="0.8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="236" height="236" viewBox="0.240000 0.655738 235.520000 235.016393" preserveAspectRatio="none"><defs><filter id="shadow1" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#4c1208" flood-opacity="0.42"/></filter></defs><g filter="url(#shadow1)"><g fill="none">
+  <defs>
+    <linearGradient id="l2-le_back" x1="26" y1="40" x2="210" y2="204" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c2412c" />
+      <stop offset="1" stop-color="#8f2618" />
+    </linearGradient>
+  </defs>
+  <path d="M40 100 H196 Q210 100 210 114 V190 Q210 204 196 204 H40 Q26 204 26 190 V114 Q26 100 40 100 Z" fill="url(#l2-le_back)" />
+  <path d="M32 106 L108 52 Q118 44 128 52 L204 106 Z" fill="#a8321f" stroke="#a8321f" stroke-width="8" stroke-linejoin="round" />
+</g><defs><filter id="shadow3" x="30" y="24" width="176" height="180" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#5a1a0e" flood-opacity="0.35"/></filter></defs><g filter="url(#shadow3)"><g fill="none">
+  <defs>
+    <linearGradient id="l4-le_paper" x1="56" y1="44" x2="180" y2="174" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="0.7" stop-color="#fbf6ec" />
+      <stop offset="1" stop-color="#ece2cf" />
+    </linearGradient>
+    <linearGradient id="l4-le_stamp" x1="150" y1="56" x2="176" y2="86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5aa8ff" />
+      <stop offset="1" stop-color="#1f62d0" />
+    </linearGradient>
+  </defs>
+  <rect x="56" y="42" width="124" height="140" rx="9" fill="url(#l4-le_paper)" />
+  <rect x="148" y="54" width="22" height="26" rx="3" fill="url(#l4-le_stamp)" />
+  <rect x="152" y="58" width="14" height="18" rx="2" stroke="white" stroke-opacity="0.7" stroke-width="2" />
+</g><g fill="none">
+  <rect x="70" y="58" width="56" height="8" rx="4" fill="#2c3440" />
+</g><g fill="none">
+  <rect x="70" y="80" width="96" height="6" rx="3" fill="#8a7f6e" fill-opacity="0.55" />
+  <rect x="70" y="94" width="88" height="6" rx="3" fill="#8a7f6e" fill-opacity="0.55" />
+  <rect x="70" y="108" width="96" height="6" rx="3" fill="#8a7f6e" fill-opacity="0.55" />
+  <rect x="70" y="122" width="60" height="6" rx="3" fill="#8a7f6e" fill-opacity="0.55" />
+</g></g><g fill="none">
+  <defs>
+    <linearGradient id="l7-le_front" x1="40" y1="112" x2="196" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff8a5c" />
+      <stop offset="0.6" stop-color="#f0603a" />
+      <stop offset="1" stop-color="#d4442a" />
+    </linearGradient>
+  </defs>
+  <path d="M26 120 L118 170 L210 120 V190 Q210 204 196 204 H40 Q26 204 26 190 Z" fill="url(#l7-le_front)" />
+</g><g fill="none">
+  <defs>
+    <linearGradient id="l8-le_side" x1="26" y1="118" x2="118" y2="204" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9d73" />
+      <stop offset="1" stop-color="#e5543a" />
+    </linearGradient>
+    <radialGradient id="l8-le_bloom" cx="70" cy="120" r="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="white" stop-opacity="0.38" />
+      <stop offset="1" stop-color="white" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="l8-le_front_clip">
+      <path d="M26 120 L118 170 L210 120 V190 Q210 204 196 204 H40 Q26 204 26 190 Z" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#l8-le_front_clip)">
+    <path d="M20 124 L102 196 L20 212 Z" fill="url(#l8-le_side)" fill-opacity="0.55" />
+    <path d="M216 124 L134 196 L216 212 Z" fill="#c8402a" fill-opacity="0.35" />
+    <rect x="0" y="0" width="236" height="236" fill="url(#l8-le_bloom)" />
+  </g>
+</g><defs><clipPath id="rim9"><path d="M26 120 L118 170 L210 120 V190 Q210 204 196 204 H40 Q26 204 26 190 Z" clip-rule="nonzero"/></clipPath><linearGradient id="rim9g0" x1="26" y1="120" x2="164" y2="204" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.200"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.100"/></linearGradient><linearGradient id="rim9g1" x1="26" y1="120" x2="164" y2="204" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.950"/><stop offset="0.45" stop-color="#ffffff" stop-opacity="0.600"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.250"/></linearGradient><linearGradient id="rim9g2" x1="26" y1="120" x2="164" y2="204" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.050"/><stop offset="0.7" stop-color="#ffffff" stop-opacity="0.150"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.420"/></linearGradient></defs><g clip-path="url(#rim9)"><path d="M26 120 L118 170 L210 120 V190 Q210 204 196 204 H40 Q26 204 26 190 Z" fill="none" stroke="url(#rim9g0)" stroke-width="3"/><path d="M26 120 L118 170 L210 120 V190 Q210 204 196 204 H40 Q26 204 26 190 ZM27.68 122.8 L119.68 172.8 L211.68 122.8 V192.8 Q211.68 206.8 197.68 206.8 H41.68 Q27.68 206.8 27.68 192.8 Z" fill="url(#rim9g1)" fill-rule="evenodd"/><path d="M26 120 L118 170 L210 120 V190 Q210 204 196 204 H40 Q26 204 26 190 ZM25.04 118.4 L117.04 168.4 L209.04 118.4 V188.4 Q209.04 202.4 195.04 202.4 H39.04 Q25.04 202.4 25.04 188.4 Z" fill="url(#rim9g2)" fill-rule="evenodd"/></g><g fill="none">
+  <path d="M28 121 L118 170 L208 121" stroke="#ffc4a8" stroke-opacity="0.600" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+</g></g></svg>

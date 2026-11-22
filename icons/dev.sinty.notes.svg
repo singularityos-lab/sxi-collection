@@ -1,38 +1,26 @@
-<svg width="236" height="236" viewBox="0 0 236 236" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="nt_pad" x1="118" y1="30" x2="118" y2="214" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffe57a"/><stop offset="0.55" stop-color="#ffd24a"/><stop offset="1" stop-color="#f5b82e"/></linearGradient>
-<linearGradient id="nt_side" x1="0" y1="200" x2="0" y2="224" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#c98a1c"/><stop offset="1" stop-color="#9c6512"/></linearGradient>
-<linearGradient id="nt_band" x1="118" y1="30" x2="118" y2="74" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f0873a"/><stop offset="1" stop-color="#d4621c"/></linearGradient>
-<radialGradient id="nt_bloom" cx="70" cy="40" r="170" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="white" stop-opacity="0.45"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
-<linearGradient id="nt_check" x1="0" y1="96" x2="0" y2="120" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#33d17a"/><stop offset="1" stop-color="#1c9e5a"/></linearGradient>
-<linearGradient id="nt_ring" x1="0" y1="18" x2="0" y2="46" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f3f6f9"/><stop offset="0.5" stop-color="#b9c2cc"/><stop offset="1" stop-color="#7d8894"/></linearGradient>
-<clipPath id="nt_clip"><rect x="42" y="30" width="152" height="184" rx="20"/></clipPath>
-<filter id="nt_shadow" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#402605" flood-opacity="0.45"/></filter>
-<filter id="nt_ring_shadow" x="40" y="10" width="156" height="50" filterUnits="userSpaceOnUse">
-<feDropShadow dx="0" dy="2" stdDeviation="1.6" flood-color="#5a3412" flood-opacity="0.5"/>
-</filter>
-</defs>
-<g filter="url(#nt_shadow)">
-<rect x="42" y="40" width="152" height="184" rx="20" fill="url(#nt_side)"/>
-<rect x="42" y="30" width="152" height="184" rx="20" fill="url(#nt_pad)"/>
-</g>
-<g clip-path="url(#nt_clip)">
-<rect x="42" y="30" width="152" height="44" fill="url(#nt_band)"/>
-<rect x="42" y="72" width="152" height="3" fill="#b5541a" opacity="0.35"/>
-<rect x="42" y="30" width="152" height="184" fill="url(#nt_bloom)"/>
-</g>
-<rect x="45" y="33" width="146" height="178" rx="17" stroke="white" stroke-opacity="0.35" stroke-width="2"/>
-<g filter="url(#nt_ring_shadow)">
-<rect x="64" y="18" width="12" height="30" rx="6" fill="url(#nt_ring)"/>
-<rect x="92" y="18" width="12" height="30" rx="6" fill="url(#nt_ring)"/>
-<rect x="120" y="18" width="12" height="30" rx="6" fill="url(#nt_ring)"/>
-<rect x="148" y="18" width="12" height="30" rx="6" fill="url(#nt_ring)"/>
-</g>
-<rect x="62" y="92" width="24" height="24" rx="7" fill="url(#nt_check)"/>
-<path d="M67.5 104.5 L72.5 109.5 L81 99" stroke="white" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="96" y="98" width="78" height="12" rx="6" fill="#8a5a14" opacity="0.75"/>
-<rect x="62" y="132" width="112" height="8" rx="4" fill="#c98a1c" opacity="0.55"/>
-<rect x="62" y="152" width="98" height="8" rx="4" fill="#c98a1c" opacity="0.55"/>
-<rect x="62" y="172" width="108" height="8" rx="4" fill="#c98a1c" opacity="0.55"/>
-<rect x="62" y="192" width="64" height="8" rx="4" fill="#c98a1c" opacity="0.55"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="236" height="236" viewBox="0.084848 0.026846 235.830303 235.955257" preserveAspectRatio="none"><defs><filter id="shadow1" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#402605" flood-opacity="0.45"/></filter></defs><g filter="url(#shadow1)"><g fill="none"><defs><linearGradient id="l2-nt_side" x1="0" y1="200" x2="0" y2="224" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#c98a1c" /><stop offset="1" stop-color="#9c6512" /></linearGradient>
+</defs><rect x="42" y="40" width="152" height="184" rx="20" fill="url(#l2-nt_side)" />
+</g><g fill="none"><defs><linearGradient id="l3-nt_pad" x1="118" y1="30" x2="118" y2="214" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffe57a" /><stop offset="0.55" stop-color="#ffd24a" /><stop offset="1" stop-color="#f5b82e" /></linearGradient>
+</defs><rect x="42" y="30" width="152" height="184" rx="20" fill="url(#l3-nt_pad)" />
+</g></g><defs><clipPath id="clip4"><path d="M62 30 H174 A20 20 0 0 1 194 50 V194 A20 20 0 0 1 174 214 H62 A20 20 0 0 1 42 194 V50 A20 20 0 0 1 62 30 Z" clip-rule="nonzero"/></clipPath></defs><g clip-path="url(#clip4)"><g fill="none"><defs><linearGradient id="l5-nt_band" x1="118" y1="30" x2="118" y2="74" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f0873a" /><stop offset="1" stop-color="#d4621c" /></linearGradient>
+</defs><rect x="42" y="30" width="152" height="44" fill="url(#l5-nt_band)" />
+</g><g fill="none"><rect x="42" y="72" width="152" height="3" fill="#b5541a" opacity="0.35" />
+</g><g fill="none"><defs><radialGradient id="l7-nt_bloom" cx="70" cy="40" r="170" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="white" stop-opacity="0.45" /><stop offset="1" stop-color="white" stop-opacity="0" /></radialGradient>
+</defs><rect x="42" y="30" width="152" height="184" fill="url(#l7-nt_bloom)" />
+</g></g><defs><clipPath id="rim8"><path d="M62 30H174A20 20 0 0 1 194 50V194A20 20 0 0 1 174 214H62A20 20 0 0 1 42 194V50A20 20 0 0 1 62 30Z" clip-rule="nonzero"/></clipPath><linearGradient id="rim8g0" x1="42" y1="30" x2="156" y2="214" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.200"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.100"/></linearGradient><linearGradient id="rim8g1" x1="42" y1="30" x2="156" y2="214" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.950"/><stop offset="0.45" stop-color="#ffffff" stop-opacity="0.600"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.250"/></linearGradient><linearGradient id="rim8g2" x1="42" y1="30" x2="156" y2="214" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.050"/><stop offset="0.7" stop-color="#ffffff" stop-opacity="0.150"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.420"/></linearGradient></defs><g clip-path="url(#rim8)"><path d="M62 30H174A20 20 0 0 1 194 50V194A20 20 0 0 1 174 214H62A20 20 0 0 1 42 194V50A20 20 0 0 1 62 30Z" fill="none" stroke="url(#rim8g0)" stroke-width="3"/><path d="M62 30H174A20 20 0 0 1 194 50V194A20 20 0 0 1 174 214H62A20 20 0 0 1 42 194V50A20 20 0 0 1 62 30ZM63.68 32.8 H175.68 A20 20 0 0 1 195.68 52.8 V196.8 A20 20 0 0 1 175.68 216.8 H63.68 A20 20 0 0 1 43.68 196.8 V52.8 A20 20 0 0 1 63.68 32.8 Z" fill="url(#rim8g1)" fill-rule="evenodd"/><path d="M62 30H174A20 20 0 0 1 194 50V194A20 20 0 0 1 174 214H62A20 20 0 0 1 42 194V50A20 20 0 0 1 62 30ZM61.04 28.4 H173.04 A20 20 0 0 1 193.04 48.4 V192.4 A20 20 0 0 1 173.04 212.4 H61.04 A20 20 0 0 1 41.04 192.4 V48.4 A20 20 0 0 1 61.04 28.4 Z" fill="url(#rim8g2)" fill-rule="evenodd"/></g><defs><filter id="shadow9" x="40" y="10" width="156" height="50" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="2" stdDeviation="1.6" flood-color="#5a3412" flood-opacity="0.5"/></filter></defs><g filter="url(#shadow9)"><g fill="none"><defs><linearGradient id="l10-nt_ring" x1="0" y1="18" x2="0" y2="46" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f3f6f9" /><stop offset="0.5" stop-color="#b9c2cc" /><stop offset="1" stop-color="#7d8894" /></linearGradient>
+</defs><rect x="64" y="18" width="12" height="30" rx="6" fill="url(#l10-nt_ring)" />
+</g><g fill="none"><defs><linearGradient id="l11-nt_ring" x1="0" y1="18" x2="0" y2="46" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f3f6f9" /><stop offset="0.5" stop-color="#b9c2cc" /><stop offset="1" stop-color="#7d8894" /></linearGradient>
+</defs><rect x="92" y="18" width="12" height="30" rx="6" fill="url(#l11-nt_ring)" />
+</g><g fill="none"><defs><linearGradient id="l12-nt_ring" x1="0" y1="18" x2="0" y2="46" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f3f6f9" /><stop offset="0.5" stop-color="#b9c2cc" /><stop offset="1" stop-color="#7d8894" /></linearGradient>
+</defs><rect x="120" y="18" width="12" height="30" rx="6" fill="url(#l12-nt_ring)" />
+</g><g fill="none"><defs><linearGradient id="l13-nt_ring" x1="0" y1="18" x2="0" y2="46" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f3f6f9" /><stop offset="0.5" stop-color="#b9c2cc" /><stop offset="1" stop-color="#7d8894" /></linearGradient>
+</defs><rect x="148" y="18" width="12" height="30" rx="6" fill="url(#l13-nt_ring)" />
+</g></g><g fill="none"><defs><linearGradient id="l14-nt_check" x1="0" y1="96" x2="0" y2="120" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#33d17a" /><stop offset="1" stop-color="#1c9e5a" /></linearGradient>
+</defs><rect x="62" y="92" width="24" height="24" rx="7" fill="url(#l14-nt_check)" />
+</g><g fill="none"><path d="M67.5 104.5 L72.5 109.5 L81 99" stroke="white" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" />
+</g><g fill="none"><rect x="96" y="98" width="78" height="12" rx="6" fill="#8a5a14" opacity="0.75" />
+</g><g fill="none"><rect x="62" y="132" width="112" height="8" rx="4" fill="#c98a1c" opacity="0.55" />
+</g><g fill="none"><rect x="62" y="152" width="98" height="8" rx="4" fill="#c98a1c" opacity="0.55" />
+</g><g fill="none"><rect x="62" y="172" width="108" height="8" rx="4" fill="#c98a1c" opacity="0.55" />
+</g><g fill="none"><rect x="62" y="192" width="64" height="8" rx="4" fill="#c98a1c" opacity="0.55" />
+</g></svg>

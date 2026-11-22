@@ -1,72 +1,58 @@
-<svg width="236" height="236" viewBox="0 0 236 236" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="paper_front" x1="46" y1="58" x2="196" y2="200" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="#fffdf8"/>
-<stop offset="65%" stop-color="#f4efe4"/>
-<stop offset="100%" stop-color="#e6ddcb"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="236" height="236" viewBox="0.000000 0.000000 236.122353 235.944700" preserveAspectRatio="none"><g fill="none"><defs><linearGradient id="l1-sheet_back" x1="30" y1="36" x2="160" y2="170" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#a8997c" />
+<stop offset="100%" stop-color="#7f7055" />
 </linearGradient>
-<linearGradient id="paper_mid" x1="46" y1="58" x2="196" y2="200" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="#d9cfbb"/>
-<stop offset="100%" stop-color="#b3a58a"/>
+</defs><g transform="rotate(-9 100 104)"><path d="M40 40 H162 Q170 40 170 48 V170 Q170 178 162 178 H40 Q32 178 32 170 V48 Q32 40 40 40 Z" fill="url(#l1-sheet_back)" />
+</g></g><g fill="none"><defs><linearGradient id="l2-sheet_front" x1="30" y1="36" x2="160" y2="170" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#f3eee2" />
+<stop offset="100%" stop-color="#d8cfbb" />
 </linearGradient>
-<linearGradient id="paper_back" x1="46" y1="58" x2="196" y2="200" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="#b8aa8e"/>
-<stop offset="100%" stop-color="#8c7c60"/>
+</defs><g transform="rotate(-9 100 104)"><path d="M40 37 H162 Q170 37 170 45 V167 Q170 175 162 175 H40 Q32 175 32 167 V45 Q32 37 40 37 Z" fill="url(#l2-sheet_front)" />
+</g></g><g fill="none"><g transform="rotate(-9 100 104)"><rect x="44" y="50" width="70" height="7" rx="3.5" fill="#8c7e66" fill-opacity="0.55" />
+</g></g><g fill="none"><g transform="rotate(-9 100 104)"><rect x="44" y="64" width="112" height="4" rx="2" fill="#8c7e66" fill-opacity="0.35" />
+</g></g><g fill="none"><g transform="rotate(-9 100 104)"><rect x="44" y="74" width="100" height="4" rx="2" fill="#8c7e66" fill-opacity="0.35" />
+</g></g><g fill="none"><defs><linearGradient id="l6-paper_back" x1="46" y1="58" x2="196" y2="200" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#b8aa8e" />
+<stop offset="100%" stop-color="#8c7c60" />
 </linearGradient>
-<linearGradient id="sheet_front" x1="30" y1="36" x2="160" y2="170" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="#f3eee2"/>
-<stop offset="100%" stop-color="#d8cfbb"/>
+</defs><path d="M54 62 H188 Q196 62 196 70 V192 Q196 200 188 200 H54 Q46 200 46 192 V70 Q46 62 54 62 Z" fill="url(#l6-paper_back)" />
+</g><g fill="none"><defs><linearGradient id="l7-paper_mid" x1="46" y1="58" x2="196" y2="200" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#d9cfbb" />
+<stop offset="100%" stop-color="#b3a58a" />
 </linearGradient>
-<linearGradient id="sheet_back" x1="30" y1="36" x2="160" y2="170" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="#a8997c"/>
-<stop offset="100%" stop-color="#7f7055"/>
+</defs><path d="M54 60 H188 Q196 60 196 68 V190 Q196 198 188 198 H54 Q46 198 46 190 V68 Q46 60 54 60 Z" fill="url(#l7-paper_mid)" />
+</g><g fill="none"><defs><linearGradient id="l8-paper_front" x1="46" y1="58" x2="196" y2="200" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#fffdf8" />
+<stop offset="65%" stop-color="#f4efe4" />
+<stop offset="100%" stop-color="#e6ddcb" />
 </linearGradient>
-<linearGradient id="photo" x1="58" y1="96" x2="116" y2="148" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="#ffb347"/>
-<stop offset="100%" stop-color="#f06a00"/>
-</linearGradient>
-<linearGradient id="mast" x1="58" y1="70" x2="184" y2="86" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="#3a4655"/>
-<stop offset="100%" stop-color="#232b35"/>
-</linearGradient>
-<radialGradient id="bloom_n" cx="78" cy="78" r="110" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="white" stop-opacity="0.6"/>
-<stop offset="100%" stop-color="white" stop-opacity="0"/>
+<filter id="l8-fshadow_n" x="24" y="40" width="190" height="186" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#2e210d" flood-opacity="0.5" /></filter>
+</defs><path d="M54 58 H188 Q196 58 196 66 V188 Q196 196 188 196 H54 Q46 196 46 188 V66 Q46 58 54 58 Z" fill="url(#l8-paper_front)" filter="url(#l8-fshadow_n)" />
+</g><defs><clipPath id="rim9"><path d="M54 58 H188 Q196 58 196 66 V188 Q196 196 188 196 H54 Q46 196 46 188 V66 Q46 58 54 58 Z" clip-rule="nonzero"/></clipPath><linearGradient id="rim9g0" x1="46" y1="58" x2="158.5" y2="196" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.200"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.100"/></linearGradient><linearGradient id="rim9g1" x1="46" y1="58" x2="158.5" y2="196" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.950"/><stop offset="0.45" stop-color="#ffffff" stop-opacity="0.600"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.250"/></linearGradient><linearGradient id="rim9g2" x1="46" y1="58" x2="158.5" y2="196" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.050"/><stop offset="0.7" stop-color="#ffffff" stop-opacity="0.150"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.420"/></linearGradient></defs><g clip-path="url(#rim9)"><path d="M54 58 H188 Q196 58 196 66 V188 Q196 196 188 196 H54 Q46 196 46 188 V66 Q46 58 54 58 Z" fill="none" stroke="url(#rim9g0)" stroke-width="3"/><path d="M54 58 H188 Q196 58 196 66 V188 Q196 196 188 196 H54 Q46 196 46 188 V66 Q46 58 54 58 ZM55.68 60.8 H189.68 Q197.68 60.8 197.68 68.8 V190.8 Q197.68 198.8 189.68 198.8 H55.68 Q47.68 198.8 47.68 190.8 V68.8 Q47.68 60.8 55.68 60.8 Z" fill="url(#rim9g1)" fill-rule="evenodd"/><path d="M54 58 H188 Q196 58 196 66 V188 Q196 196 188 196 H54 Q46 196 46 188 V66 Q46 58 54 58 ZM53.04 56.4 H187.04 Q195.04 56.4 195.04 64.4 V186.4 Q195.04 194.4 187.04 194.4 H53.04 Q45.04 194.4 45.04 186.4 V64.4 Q45.04 56.4 53.04 56.4 Z" fill="url(#rim9g2)" fill-rule="evenodd"/></g><defs><clipPath id="clip10"><path d="M54 58 H188 Q196 58 196 66 V188 Q196 196 188 196 H54 Q46 196 46 188 V66 Q46 58 54 58 Z" clip-rule="nonzero"/></clipPath></defs><g clip-path="url(#clip10)"><g fill="none"><defs><radialGradient id="l11-bloom_n" cx="78" cy="78" r="110" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="white" stop-opacity="0.6" />
+<stop offset="100%" stop-color="white" stop-opacity="0" />
 </radialGradient>
-<filter id="fshadow_n" x="24" y="40" width="190" height="186" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#2e210d" flood-opacity="0.5"/></filter>
-<clipPath id="front_clip">
-<path d="M54 58 H188 Q196 58 196 66 V188 Q196 196 188 196 H54 Q46 196 46 188 V66 Q46 58 54 58 Z"/>
-</clipPath>
-</defs>
-<g transform="rotate(-9 100 104)">
-<path d="M40 40 H162 Q170 40 170 48 V170 Q170 178 162 178 H40 Q32 178 32 170 V48 Q32 40 40 40 Z" fill="url(#sheet_back)"/>
-<path d="M40 37 H162 Q170 37 170 45 V167 Q170 175 162 175 H40 Q32 175 32 167 V45 Q32 37 40 37 Z" fill="url(#sheet_front)"/>
-<rect x="44" y="50" width="70" height="7" rx="3.5" fill="#8c7e66" fill-opacity="0.55"/>
-<rect x="44" y="64" width="112" height="4" rx="2" fill="#8c7e66" fill-opacity="0.35"/>
-<rect x="44" y="74" width="100" height="4" rx="2" fill="#8c7e66" fill-opacity="0.35"/>
-</g>
-<path d="M54 62 H188 Q196 62 196 70 V192 Q196 200 188 200 H54 Q46 200 46 192 V70 Q46 62 54 62 Z" fill="url(#paper_back)"/>
-<path d="M54 60 H188 Q196 60 196 68 V190 Q196 198 188 198 H54 Q46 198 46 190 V68 Q46 60 54 60 Z" fill="url(#paper_mid)"/>
-<path d="M54 58 H188 Q196 58 196 66 V188 Q196 196 188 196 H54 Q46 196 46 188 V66 Q46 58 54 58 Z" fill="url(#paper_front)" filter="url(#fshadow_n)"/>
-<g clip-path="url(#front_clip)">
-<circle cx="78" cy="78" r="110" fill="url(#bloom_n)"/>
-</g>
-<rect x="58" y="70" width="126" height="16" rx="4" fill="url(#mast)"/>
-<rect x="58" y="91" width="126" height="2.2" rx="1.1" fill="#3a4655" fill-opacity="0.75"/>
-<rect x="58" y="100" width="58" height="48" rx="6" fill="url(#photo)"/>
-<g fill="none" stroke="white" stroke-linecap="round" stroke-width="5">
-<path d="M70 118 A20 20 0 0 1 90 138"/>
-<path d="M70 106 A32 32 0 0 1 102 138"/>
-</g>
-<circle cx="72.5" cy="135.5" r="4.5" fill="white"/>
-<g fill="#8a8272">
-<rect x="124" y="101" width="60" height="4.5" rx="2.25"/>
-<rect x="124" y="111" width="54" height="4.5" rx="2.25"/>
-<rect x="124" y="121" width="60" height="4.5" rx="2.25"/>
-<rect x="124" y="131" width="46" height="4.5" rx="2.25"/>
-<rect x="124" y="141" width="56" height="4.5" rx="2.25"/>
-<rect x="58" y="158" width="126" height="4.5" rx="2.25"/>
-<rect x="58" y="168" width="118" height="4.5" rx="2.25"/>
-<rect x="58" y="178" width="84" height="4.5" rx="2.25"/>
-</g>
-</svg>
+</defs><circle cx="78" cy="78" r="110" fill="url(#l11-bloom_n)" />
+</g></g><g fill="none"><defs><linearGradient id="l12-mast" x1="58" y1="70" x2="184" y2="86" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#3a4655" />
+<stop offset="100%" stop-color="#232b35" />
+</linearGradient>
+</defs><rect x="58" y="70" width="126" height="16" rx="4" fill="url(#l12-mast)" />
+</g><g fill="none"><rect x="58" y="91" width="126" height="2.2" rx="1.1" fill="#3a4655" fill-opacity="0.75" />
+</g><g fill="none"><defs><linearGradient id="l14-photo" x1="58" y1="96" x2="116" y2="148" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#ffb347" />
+<stop offset="100%" stop-color="#f06a00" />
+</linearGradient>
+</defs><rect x="58" y="100" width="58" height="48" rx="6" fill="url(#l14-photo)" />
+</g><g fill="none"><g fill="none" stroke="white" stroke-linecap="round" stroke-width="5"><path d="M70 118 A20 20 0 0 1 90 138" />
+</g></g><g fill="none"><g fill="none" stroke="white" stroke-linecap="round" stroke-width="5"><path d="M70 106 A32 32 0 0 1 102 138" />
+</g></g><g fill="none"><circle cx="72.5" cy="135.5" r="4.5" fill="white" />
+</g><g fill="none"><g fill="#8a8272"><rect x="124" y="101" width="60" height="4.5" rx="2.25" />
+</g></g><g fill="none"><g fill="#8a8272"><rect x="124" y="111" width="54" height="4.5" rx="2.25" />
+</g></g><g fill="none"><g fill="#8a8272"><rect x="124" y="121" width="60" height="4.5" rx="2.25" />
+</g></g><g fill="none"><g fill="#8a8272"><rect x="124" y="131" width="46" height="4.5" rx="2.25" />
+</g></g><g fill="none"><g fill="#8a8272"><rect x="124" y="141" width="56" height="4.5" rx="2.25" />
+</g></g><g fill="none"><g fill="#8a8272"><rect x="58" y="158" width="126" height="4.5" rx="2.25" />
+</g></g><g fill="none"><g fill="#8a8272"><rect x="58" y="168" width="118" height="4.5" rx="2.25" />
+</g></g><g fill="none"><g fill="#8a8272"><rect x="58" y="178" width="84" height="4.5" rx="2.25" />
+</g></g></svg>

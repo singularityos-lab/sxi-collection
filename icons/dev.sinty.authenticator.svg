@@ -1,24 +1,11 @@
-<svg width="236" height="236" viewBox="0 0 236 236" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="au_body" x1="40" y1="16" x2="196" y2="214" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2fd6bd"/><stop offset="0.55" stop-color="#11a394"/><stop offset="1" stop-color="#0a6f6a"/></linearGradient>
-<linearGradient id="au_rim" x1="118" y1="10" x2="118" y2="226" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8ff0de"/><stop offset="1" stop-color="#0d7f78"/></linearGradient>
-<linearGradient id="au_ring" x1="70" y1="64" x2="166" y2="162" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d9fbf4"/></linearGradient>
-<radialGradient id="au_bloom" cx="76" cy="40" r="170" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="white" stop-opacity="0.42"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
-<clipPath id="au_clip"><path d="M118 14c28 15 58 23 88 25v70c0 56-35 94-88 114C65 203 30 165 30 109V39c30-2 60-10 88-25z"/></clipPath>
-<filter id="au_shadow" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#05332e" flood-opacity="0.4"/></filter>
-<filter id="au_inner" x="50" y="50" width="136" height="136" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#04403c" flood-opacity="0.45"/>
-</filter>
-</defs>
-<g filter="url(#au_shadow)">
-<path d="M118 20c28 15 58 23 88 25v70c0 56-35 94-88 114C65 209 30 171 30 115V45c30-2 60-10 88-25z" fill="#07524f"/>
-<path d="M118 14c28 15 58 23 88 25v70c0 56-35 94-88 114C65 203 30 165 30 109V39c30-2 60-10 88-25z" fill="url(#au_rim)"/>
-<path d="M118 24c25 13 51 20 78 23v62c0 50-31 84-78 102-47-18-78-52-78-102V47c27-3 53-10 78-23z" fill="url(#au_body)"/>
-</g>
-<g clip-path="url(#au_clip)"><rect x="0" y="0" width="236" height="236" fill="url(#au_bloom)"/></g>
-<g filter="url(#au_inner)">
-<circle cx="118" cy="114" r="44" stroke="white" stroke-opacity="0.28" stroke-width="14"/>
-<path d="M118 70a44 44 0 1 1-44 44" stroke="url(#au_ring)" stroke-width="14" stroke-linecap="round"/>
-<path d="M118 90v26l16 10" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="236" height="236" viewBox="0.000000 0.000000 236.000000 236.000000" preserveAspectRatio="none"><defs><filter id="shadow1" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#05332e" flood-opacity="0.4"/></filter></defs><g filter="url(#shadow1)"><g fill="none"><path d="M118 20c28 15 58 23 88 25v70c0 56-35 94-88 114C65 209 30 171 30 115V45c30-2 60-10 88-25z" fill="#07524f" />
+</g><g fill="none"><defs><linearGradient id="l3-au_rim" x1="118" y1="10" x2="118" y2="226" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8ff0de" /><stop offset="1" stop-color="#0d7f78" /></linearGradient>
+</defs><path d="M118 14c28 15 58 23 88 25v70c0 56-35 94-88 114C65 203 30 165 30 109V39c30-2 60-10 88-25z" fill="url(#l3-au_rim)" />
+</g><g fill="none"><defs><linearGradient id="l4-au_body" x1="40" y1="16" x2="196" y2="214" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2fd6bd" /><stop offset="0.55" stop-color="#11a394" /><stop offset="1" stop-color="#0a6f6a" /></linearGradient>
+</defs><path d="M118 24c25 13 51 20 78 23v62c0 50-31 84-78 102-47-18-78-52-78-102V47c27-3 53-10 78-23z" fill="url(#l4-au_body)" />
+</g></g><defs><clipPath id="clip5"><path d="M118 14 c28 15 58 23 88 25 v70 c0 56 -35 94 -88 114 C65 203 30 165 30 109 V39 c30 -2 60 -10 88 -25 z" clip-rule="nonzero"/></clipPath></defs><g clip-path="url(#clip5)"><g fill="none"><defs><radialGradient id="l6-au_bloom" cx="76" cy="40" r="170" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="white" stop-opacity="0.42" /><stop offset="1" stop-color="white" stop-opacity="0" /></radialGradient>
+</defs><rect x="0" y="0" width="236" height="236" fill="url(#l6-au_bloom)" /></g><defs><clipPath id="rim7"><path d="M118 14c28 15 58 23 88 25v70c0 56-35 94-88 114C65 203 30 165 30 109V39c30-2 60-10 88-25z" clip-rule="nonzero"/></clipPath><linearGradient id="rim7g0" x1="30" y1="14" x2="162" y2="223" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.200"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.100"/></linearGradient><linearGradient id="rim7g1" x1="30" y1="14" x2="162" y2="223" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.950"/><stop offset="0.45" stop-color="#ffffff" stop-opacity="0.600"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.250"/></linearGradient><linearGradient id="rim7g2" x1="30" y1="14" x2="162" y2="223" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.050"/><stop offset="0.7" stop-color="#ffffff" stop-opacity="0.150"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.420"/></linearGradient></defs><g clip-path="url(#rim7)"><path d="M118 14c28 15 58 23 88 25v70c0 56-35 94-88 114C65 203 30 165 30 109V39c30-2 60-10 88-25z" fill="none" stroke="url(#rim7g0)" stroke-width="3"/><path d="M118 14c28 15 58 23 88 25v70c0 56-35 94-88 114C65 203 30 165 30 109V39c30-2 60-10 88-25zM119.68 16.8 c28 15 58 23 88 25 v70 c0 56 -35 94 -88 114 C66.68 205.8 31.68 167.8 31.68 111.8 V41.8 c30 -2 60 -10 88 -25 z" fill="url(#rim7g1)" fill-rule="evenodd"/><path d="M118 14c28 15 58 23 88 25v70c0 56-35 94-88 114C65 203 30 165 30 109V39c30-2 60-10 88-25zM117.04 12.4 c28 15 58 23 88 25 v70 c0 56 -35 94 -88 114 C64.04 201.4 29.04 163.4 29.04 107.4 V37.4 c30 -2 60 -10 88 -25 z" fill="url(#rim7g2)" fill-rule="evenodd"/></g></g><defs><filter id="shadow8" x="50" y="50" width="136" height="136" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#04403c" flood-opacity="0.45"/></filter></defs><g filter="url(#shadow8)"><g fill="none"><circle cx="118" cy="114" r="44" stroke="white" stroke-opacity="0.28" stroke-width="14" />
+</g><g fill="none"><defs><linearGradient id="l10-au_ring" x1="70" y1="64" x2="166" y2="162" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" /><stop offset="1" stop-color="#d9fbf4" /></linearGradient>
+</defs><path d="M118 70a44 44 0 1 1-44 44" stroke="url(#l10-au_ring)" stroke-width="14" stroke-linecap="round" />
+</g><g fill="none"><path d="M118 90v26l16 10" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+</g></g></svg>
