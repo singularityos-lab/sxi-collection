@@ -88,6 +88,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: bash ci/fetch-sdk.sh "$ARCH" "$RUNNER_TEMP/sdk"
+      - name: Install the host tools the SDK expects
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq sassc
       - name: Build the application
         run: bash ci/build-app.sh "$ID" "$ARCH" "$RUNNER_TEMP/out"
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
