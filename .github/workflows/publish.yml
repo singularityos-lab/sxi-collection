@@ -1,0 +1,273 @@
+name: Publish applications
+run-name: Publish ${{ inputs.apps || 'all applications' }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      apps:
+        description: Application ids separated by spaces; empty publishes every application in ci/apps.json
+        required: false
+        default: ''
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish-collection
+  cancel-in-progress: false
+
+env:
+  APPS: ${{ inputs.apps }}
+
+jobs:
+  plan:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    outputs:
+      matrix: ${{ steps.matrix.outputs.matrix }}
+      sxi: ${{ steps.matrix.outputs.sxi }}
+      root: ${{ steps.matrix.outputs.root }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Read the applications
+        id: matrix
+        run: |
+          set -euo pipefail
+          {
+            python3 ci/release.py matrix --apps "$APPS"
+            echo "sxi=$(jq -r .sxi ci/sdk.json)"
+            echo "root=$(jq -r .root ci/sdk.json)"
+          } >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: singularityos-lab/sinty-sxi
+          ref: ${{ steps.matrix.outputs.sxi }}
+          path: _sxi
+          persist-credentials: false
+      - uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff
+        with:
+          go-version-file: _sxi/go.mod
+          cache: false
+      - name: Try the packer with a throwaway key
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq erofs-utils
+          (cd _sxi && go build -o "$RUNNER_TEMP/sxi" ./cmd/sxi)
+          cd "$RUNNER_TEMP"
+          mkdir -p probe/bin roots
+          cp /usr/bin/true probe/bin/probe
+          ./sxi keygen -o test-root
+          ./sxi keygen -o test-leaf
+          cp test-root.pub roots/
+          ./sxi delegate -root test-root.key -key test-leaf.pub -purpose release,index -o test.certs
+          echo '{"id":"dev.sinty.probe","name":"Probe","version":"1","sequence":1,"entries":[{"arch":"amd64","image":"bin/probe","personality":"linux"}]}' > spec.json
+          ./sxi build -spec spec.json -payload probe -root test-root.pub -key test-leaf.key -certs test.certs -o bundle
+          ./sxi pack -roots roots -o probe.sxi bundle
+
+  build:
+    name: build ${{ matrix.id }} ${{ matrix.arch }}
+    needs: plan
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      ID: ${{ matrix.id }}
+      ARCH: ${{ matrix.arch }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Fetch the SDK
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash ci/fetch-sdk.sh "$ARCH" "$RUNNER_TEMP/sdk"
+      - name: Build the application
+        run: bash ci/build-app.sh "$ID" "$ARCH" "$RUNNER_TEMP/out"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: payload-${{ matrix.id }}-${{ matrix.arch }}
+          path: ${{ runner.temp }}/out/
+          if-no-files-found: error
+          retention-days: 7
+
+  gate:
+    needs: [plan, build]
+    if: ${{ !cancelled() && needs.plan.result == 'success' }}
+    runs-on: ubuntu-24.04
+    outputs:
+      compatible: ${{ steps.select.outputs.compatible }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          pattern: payload-*
+          path: ${{ runner.temp }}/built
+      - name: Check the imports against the SDK and the stable system
+        id: select
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          for arch in amd64 arm64; do
+            bash ci/fetch-sdk.sh "$arch" "$RUNNER_TEMP/refs/$arch" abi
+            bash ci/fetch-stable.sh "$arch" "$RUNNER_TEMP/refs/$arch"
+          done
+          mkdir -p "$RUNNER_TEMP/built" "$RUNNER_TEMP/work"
+          python3 ci/release.py select --apps "$APPS" --built "$RUNNER_TEMP/built" \
+            --refs "$RUNNER_TEMP/refs" --work "$RUNNER_TEMP/work" | tee -a "$GITHUB_STEP_SUMMARY"
+          echo "compatible=$(jq '[.[] | select(.status == "compatible")] | length' "$RUNNER_TEMP/work/selection.json")" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: selection
+          path: ${{ runner.temp }}/work/selection.json
+          if-no-files-found: error
+          retention-days: 7
+
+  sign:
+    needs: [plan, gate]
+    if: ${{ !cancelled() && needs.gate.result == 'success' && needs.gate.outputs.compatible != '0' }}
+    runs-on: ubuntu-24.04
+    environment: release
+    outputs:
+      base: ${{ steps.base.outputs.base }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+          path: _collection
+          persist-credentials: false
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: singularityos-lab/sinty-sxi
+          ref: ${{ needs.plan.outputs.sxi }}
+          path: _sxi
+          persist-credentials: false
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: singularityos-lab/os
+          ref: ${{ needs.plan.outputs.root }}
+          path: _os
+          sparse-checkout: rootfs-overlay/usr/share/sinty/sxi/roots
+          persist-credentials: false
+      - uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff
+        with:
+          go-version-file: _sxi/go.mod
+          cache: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          pattern: payload-*
+          path: ${{ runner.temp }}/built
+      - name: Build the signer and check the payloads again
+        id: base
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq erofs-utils
+          (cd _sxi && go build -o "$RUNNER_TEMP/sxi" ./cmd/sxi)
+          for arch in amd64 arm64; do
+            bash ci/fetch-sdk.sh "$arch" "$RUNNER_TEMP/refs/$arch" abi
+            bash ci/fetch-stable.sh "$arch" "$RUNNER_TEMP/refs/$arch"
+          done
+          mkdir "$RUNNER_TEMP/work"
+          python3 ci/release.py select --apps "$APPS" --built "$RUNNER_TEMP/built" \
+            --refs "$RUNNER_TEMP/refs" --work "$RUNNER_TEMP/work" | tee -a "$GITHUB_STEP_SUMMARY"
+          gh api --paginate "repos/$GITHUB_REPOSITORY/git/matching-refs/tags/" \
+            --jq '.[].ref | sub("^refs/tags/"; "")' > "$RUNNER_TEMP/tags"
+          echo "base=$(git -C _collection rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Sign the releases and the index
+        env:
+          SIGNING_KEY: ${{ secrets.SXI_SIGNING_KEY }}
+          SIGNING_CERTS: ${{ secrets.SXI_SIGNING_CERTS }}
+        run: |
+          set -euo pipefail
+          keys=$(mktemp -d "$RUNNER_TEMP/keys.XXXXXX")
+          trap 'rm -rf "$keys"' EXIT
+          (umask 077; printf '%s' "$SIGNING_KEY" | base64 -d > "$keys/key")
+          printf '%s' "$SIGNING_CERTS" | base64 -d > "$keys/certs"
+          unset SIGNING_KEY SIGNING_CERTS
+          python3 ci/release.py sign --work "$RUNNER_TEMP/work" --collection _collection \
+            --tags "$RUNNER_TEMP/tags" --sxi "$RUNNER_TEMP/sxi" \
+            --root _os/rootfs-overlay/usr/share/sinty/sxi/roots/singularity.pub \
+            --key "$keys/key" --certs "$keys/certs" --out "$RUNNER_TEMP/signed"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: signed-images
+          path: ${{ runner.temp }}/signed/*.sxi
+          compression-level: 0
+          if-no-files-found: error
+          retention-days: 14
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: signed-index
+          path: |
+            ${{ runner.temp }}/signed
+            !${{ runner.temp }}/signed/*.sxi
+          if-no-files-found: error
+          retention-days: 14
+
+  publish:
+    needs: sign
+    if: ${{ !cancelled() && needs.sign.result == 'success' }}
+    runs-on: ubuntu-24.04
+    environment: release
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          pattern: signed-*
+          merge-multiple: true
+          path: ${{ runner.temp }}/signed
+      - name: Refuse an index signed on an older collection
+        env:
+          BASE: ${{ needs.sign.outputs.base }}
+        run: |
+          set -euo pipefail
+          git fetch -q --depth 1 origin "$BASE"
+          git diff --exit-code --quiet "$BASE" HEAD -- index.json index.json.cose index.certs
+      - name: Upload and check the images
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP/signed"
+          jq -c '.[]' releases.json | while read -r release; do
+            tag=$(jq -r .tag <<<"$release")
+            sha=$(jq -r .sha256 <<<"$release")
+            url=$(jq -r .url <<<"$release")
+            echo "$sha  $tag.sxi" | sha256sum -c --quiet
+            if ! gh release view "$tag" -R "$GITHUB_REPOSITORY" </dev/null >/dev/null 2>&1; then
+              gh release create "$tag" "$tag.sxi" -R "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --latest=false \
+                --title "$(jq -r '"\(.name) \(.sequence)"' <<<"$release")" \
+                --notes "$(jq -r '"\(.name) \(.version) for \(.arch), built from \(.repo)@\(.commit)."' <<<"$release")" </dev/null
+            fi
+            curl -fsSL --retry 6 --retry-all-errors --retry-delay 5 "$url" </dev/null | sha256sum | grep -q "^$sha "
+          done
+      - name: Push the signed index and the icons
+        run: |
+          set -euo pipefail
+          signed="$RUNNER_TEMP/signed"
+          cp "$signed/index.json" "$signed/index.json.cose" "$signed/index.certs" .
+          if [ -d "$signed/icons" ]; then cp "$signed/icons/"*.svg icons/; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add index.json index.json.cose index.certs icons
+          git commit -q -m "feat: publish $(jq 'map(.id) | unique | length' "$signed/releases.json") applications"
+          git push -q origin HEAD:main

@@ -1,0 +1,44 @@
+{
+  "added": {
+    "libWPEWebKit-2.0.so.1": [],
+    "libavcodec.so.60": [],
+    "libavdevice.so.60": [],
+    "libavfilter.so.9": [],
+    "libavformat.so.60": [],
+    "libavutil.so.58": [],
+    "libext2fs.so.2": [
+      "badblocks_list_add",
+      "badblocks_list_create",
+      "badblocks_list_free",
+      "badblocks_list_iterate",
+      "badblocks_list_iterate_begin",
+      "badblocks_list_iterate_end",
+      "badblocks_list_test",
+      "ext2fs_inode_io_intern",
+      "ext2fs_inode_io_intern2",
+      "ext2fs_write_bb_FILE",
+      "inode_io_manager"
+    ],
+    "libfotone.so.0": [
+      "fotone_display_set_input_method_func"
+    ],
+    "libgio-2.0.so.0": [],
+    "libgtk-4.so.1": [],
+    "libjavascriptcoregtk-6.0.so.1": [],
+    "librsvg-2.so.2": [
+      "rsvg_handle_get_intrinsic_size_in_pixels",
+      "rsvg_handle_get_pixbuf_and_error",
+      "rsvg_handle_set_cancellable_for_rendering",
+      "rsvg_major_version",
+      "rsvg_micro_version",
+      "rsvg_minor_version"
+    ],
+    "libsitwebview.so.0": [],
+    "libsndfile.so.1": [],
+    "libswresample.so.4": [],
+    "libswscale.so.7": [],
+    "libwebkitgtk-6.0.so.4": []
+  },
+  "build": "26A158",
+  "sdk": "26A174"
+}

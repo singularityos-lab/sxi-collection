@@ -1,0 +1,256 @@
+[
+  {
+    "id": "dev.sinty.atelier",
+    "name": "Atelier",
+    "repo": "singularity-atelier",
+    "commit": "2bf40850ef3fb2ac8e8aa71b33f185682099f419"
+  },
+  {
+    "id": "dev.sinty.authenticator",
+    "name": "Authenticator",
+    "repo": "singularity-authenticator",
+    "commit": "55e4c0ca5c2cabf1c0607a85141d24923fdde6f8"
+  },
+  {
+    "id": "dev.sinty.browser",
+    "name": "Browser",
+    "repo": "singularity-browser",
+    "commit": "45245aecc33bff92f367616d4c13d7b40ea64628"
+  },
+  {
+    "id": "dev.sinty.connections",
+    "name": "Connections",
+    "repo": "singularity-connections",
+    "commit": "5351638f010b2c8b1c5a4757feeae8a9e95b6dfa"
+  },
+  {
+    "id": "dev.sinty.contacts",
+    "name": "Contacts",
+    "repo": "singularity-contacts",
+    "commit": "a66cb59be6ca320bc78e2d8c7bb1f3d7d62e90b1"
+  },
+  {
+    "id": "dev.sinty.database",
+    "name": "Database",
+    "repo": "singularity-database",
+    "commit": "83c35b00d6d07f3d221484e72ba6ab63abaf5ca1"
+  },
+  {
+    "id": "dev.sinty.draw",
+    "name": "Draw",
+    "repo": "singularity-draw",
+    "commit": "f54501e068273d3625abb8f86e50efb468f66696"
+  },
+  {
+    "id": "dev.sinty.drivewriter",
+    "name": "Drive Writer",
+    "repo": "singularity-drivewriter",
+    "commit": "41fadd3d59ddde5687a051d992edef3c762d6fec"
+  },
+  {
+    "id": "dev.sinty.fediverse",
+    "name": "Fediverse",
+    "repo": "singularity-fediverse",
+    "commit": "991eb2dee64cc15ed7f8a04885b5624361572381"
+  },
+  {
+    "id": "dev.sinty.formula",
+    "name": "Formula",
+    "repo": "singularity-formula",
+    "commit": "022bf3f86bbbceafb24fabc938c51325d3758948"
+  },
+  {
+    "id": "dev.sinty.git",
+    "name": "Git",
+    "repo": "singularity-git",
+    "commit": "677c2e2bb639a87870318bc356de0cc3062b9e15"
+  },
+  {
+    "id": "dev.sinty.keyframe",
+    "name": "Keyframe",
+    "repo": "singularity-keyframe",
+    "commit": "0eb229869aa8df35fa2e4720c376c7484895dfa0",
+    "subprojects": [
+      {
+        "repo": "libsingularity",
+        "commit": "5d6c0344fb333bedf69aeb7792edb4ced0d59459"
+      },
+      {
+        "repo": "singularity-draw",
+        "commit": "f54501e068273d3625abb8f86e50efb468f66696"
+      }
+    ]
+  },
+  {
+    "id": "dev.sinty.ledstudio",
+    "name": "LED Studio",
+    "repo": "singularity-ledstudio",
+    "commit": "4383b97dbbca216b82965242d6a2479429a23178"
+  },
+  {
+    "id": "dev.sinty.lettere",
+    "name": "Lettere",
+    "repo": "singularity-lettere",
+    "commit": "3f94f0b699db14fd32bb951296c1ad713883b01c"
+  },
+  {
+    "id": "dev.sinty.machines",
+    "name": "Machines",
+    "repo": "singularity-machines",
+    "commit": "231ee5865de1df77764f5f7fc4d9bae928ab84fc"
+  },
+  {
+    "id": "dev.sinty.maps",
+    "name": "Maps",
+    "repo": "singularity-maps",
+    "commit": "8a730e50116c360a9b02bc327b65496eec3d8536"
+  },
+  {
+    "id": "dev.sinty.messages",
+    "name": "Messages",
+    "repo": "singularity-messages",
+    "commit": "0c3074e9ae52dc2fb261368f2203e5391a194c77"
+  },
+  {
+    "id": "dev.sinty.montage",
+    "name": "Montage",
+    "repo": "singularity-montage",
+    "commit": "d0a528ea8d49ce84da3ca3a371506a2194563dac"
+  },
+  {
+    "id": "dev.sinty.music",
+    "name": "Music",
+    "repo": "singularity-music",
+    "commit": "fb191dc71ef5fbf6c020b4afb30b5d9eb3a3e0bf"
+  },
+  {
+    "id": "dev.sinty.news",
+    "name": "News",
+    "repo": "singularity-news",
+    "commit": "ec6ab04ccf501fac3300e794cc2cb6df8459a5d5"
+  },
+  {
+    "id": "dev.sinty.notes",
+    "name": "Notes",
+    "repo": "singularity-notes",
+    "commit": "a4681ec7ddd1065a3349d490da6c3fa08c8c94ae"
+  },
+  {
+    "id": "dev.sinty.passwords",
+    "name": "Passwords",
+    "repo": "singularity-passwords",
+    "commit": "c7ebeebde2f3ff0935f3d0559735525cd56b5615"
+  },
+  {
+    "id": "dev.sinty.phone",
+    "name": "Phone",
+    "repo": "singularity-phone",
+    "commit": "ae3910d70bfdad3758d7e3006f9edb53a8f9afca"
+  },
+  {
+    "id": "dev.sinty.photos",
+    "name": "Photos",
+    "repo": "singularity-photos",
+    "commit": "1760fb821e322079324db19d28763d773fadb2ed"
+  },
+  {
+    "id": "dev.sinty.podcasts",
+    "name": "Podcasts",
+    "repo": "singularity-podcasts",
+    "commit": "03d3cc61db53677029490423b832302c7f216ad4"
+  },
+  {
+    "id": "dev.sinty.publish",
+    "name": "Publish",
+    "repo": "singularity-publish",
+    "commit": "e708ab32d6dc88653e2245be071ce954d72af256",
+    "subprojects": [
+      {
+        "repo": "libsingularity",
+        "commit": "5d6c0344fb333bedf69aeb7792edb4ced0d59459"
+      }
+    ]
+  },
+  {
+    "id": "dev.sinty.radio",
+    "name": "Radio",
+    "repo": "singularity-radio",
+    "commit": "f6ab3692283079dd3239ecf09e411d80d1f5aebb"
+  },
+  {
+    "id": "dev.sinty.reader",
+    "name": "Reader",
+    "repo": "singularity-reader",
+    "commit": "d7e54852c20fb0b2219cb56c073fa3ced274cd7e",
+    "subprojects": [
+      {
+        "repo": "libsingularity",
+        "commit": "5d6c0344fb333bedf69aeb7792edb4ced0d59459"
+      }
+    ]
+  },
+  {
+    "id": "dev.sinty.slides",
+    "name": "Slides",
+    "repo": "singularity-slides",
+    "commit": "2fd575b5357d85601b1e4e7fd822ab7e4ca86b59"
+  },
+  {
+    "id": "dev.sinty.spreadsheet",
+    "name": "Spreadsheet",
+    "repo": "singularity-spreadsheet",
+    "commit": "8c4c0d9f7cce99cfed2a837695ee20f2b4224980"
+  },
+  {
+    "id": "dev.sinty.tasks",
+    "name": "Tasks",
+    "repo": "singularity-tasks",
+    "commit": "e84cd2e55cf440a7b9275a387925174b8065f621"
+  },
+  {
+    "id": "dev.sinty.translate",
+    "name": "Translate",
+    "repo": "singularity-translate",
+    "commit": "0c8a690f4aacac54a9a7af298fded208cb00d1d0"
+  },
+  {
+    "id": "dev.sinty.vector",
+    "name": "Vector",
+    "repo": "singularity-vector",
+    "commit": "fb1dff59200d2585c07ea1cf5b4d295ec907751c",
+    "subprojects": [
+      {
+        "repo": "libsingularity",
+        "commit": "5d6c0344fb333bedf69aeb7792edb4ced0d59459"
+      },
+      {
+        "repo": "singularity-draw",
+        "commit": "f54501e068273d3625abb8f86e50efb468f66696"
+      }
+    ]
+  },
+  {
+    "id": "dev.sinty.videos",
+    "name": "Videos",
+    "repo": "singularity-videos",
+    "commit": "f9a44b51a4fece38b1b5fd2869d7d2a08ce50c52"
+  },
+  {
+    "id": "dev.sinty.voice",
+    "name": "Recorder",
+    "repo": "singularity-voice",
+    "commit": "522a7e4105363426bdcb6c64a56b27ed8f16c581"
+  },
+  {
+    "id": "dev.sinty.wave",
+    "name": "Wave",
+    "repo": "singularity-wave",
+    "commit": "966d9e0856d2bad9bf5270ef395b314c1f76f32c"
+  },
+  {
+    "id": "dev.sinty.write",
+    "name": "Write",
+    "repo": "singularity-write",
+    "commit": "8a57c582eec7420bb6219f0d942ab260a48a4487"
+  }
+]

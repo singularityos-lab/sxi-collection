@@ -1,0 +1,23 @@
+{
+  "build": "26A174",
+  "repository": "singularityos-lab/os",
+  "release": "sdk-26A174",
+  "sxi": "71c7d02539a40b32762541348f760c188fb2b62b",
+  "root": "a1d41aaa525fb3634623f8d4bd08b0759f58af2e",
+  "arches": {
+    "amd64": {
+      "target": "x86_64",
+      "host": "/home/runner/cache/build/host",
+      "stable": "stable",
+      "suffix": "",
+      "sums": "bf319f3068936159f5a94bd1396f307f41b46b0bc16bf317cd0479f680cc4184"
+    },
+    "arm64": {
+      "target": "aarch64",
+      "host": "/home/runner/cache-aarch64/build/host",
+      "stable": "stable/aarch64",
+      "suffix": "-aarch64",
+      "sums": "9d42b7fa4b76f892b2b1f931c524bcbd0afe3d10d5e0f0d9a5322f4097b58554"
+    }
+  }
+}
