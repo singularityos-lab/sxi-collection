@@ -274,5 +274,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           git add index.json index.json.cose index.certs icons
-          git commit -q -m "feat: publish $(jq 'map(.id) | unique | length' "$signed/releases.json") applications"
+          git commit -q -m "feat: publish $(jq -r 'map(.id) | unique | "\(length) application\(if length == 1 then "" else "s" end)"' "$signed/releases.json")"
           git push -q origin HEAD:main
