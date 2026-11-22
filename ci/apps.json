@@ -15,7 +15,7 @@
     "id": "dev.sinty.browser",
     "name": "Browser",
     "repo": "singularity-browser",
-    "commit": "45245aecc33bff92f367616d4c13d7b40ea64628"
+    "commit": "0d9e7f5de88b3498b0eda98edf0024b9c9906bf8"
   },
   {
     "id": "dev.sinty.connections",
