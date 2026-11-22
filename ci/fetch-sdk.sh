@@ -14,7 +14,11 @@ pinned=$(jq -r --arg a "$arch" '.arches[$a].sums' "$config")
 mkdir -p "$out"
 patterns=(-p "SHA256SUMS-$target" -p "sdk-abi-$target.json")
 [ "$what" = abi ] || patterns+=(-p "sdk-$target.tar.zst.part*")
-gh release download "$release" -R "$repository" "${patterns[@]}" -D "$out"
+for attempt in 1 2 3 4; do
+  gh release download "$release" -R "$repository" "${patterns[@]}" -D "$out" --clobber && break
+  [ "$attempt" -lt 4 ] || { echo "cannot download $release"; exit 1; }
+  sleep $((attempt * 10))
+done
 echo "$pinned  $out/SHA256SUMS-$target" | sha256sum -c --quiet
 (cd "$out" && sha256sum -c --quiet --ignore-missing "SHA256SUMS-$target")
 [ "$what" = abi ] && exit 0

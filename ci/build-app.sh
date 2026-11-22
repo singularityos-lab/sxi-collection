@@ -34,6 +34,12 @@ done < <(jq -r '.subprojects[]? | "\(.repo) \(.commit)"' <<<"$app")
 
 export PATH="$host/bin:$PATH"
 export STAGING_DIR="$sysroot"
+gir="$sysroot/usr/share/gir-1.0/Rsvg-2.0.gir"
+vapi="$sysroot/usr/share/vala/vapi"
+if [ -f "$gir" ] && [ ! -f "$vapi/librsvg-2.0.vapi" ]; then
+  vapigen --library librsvg-2.0 --pkg gio-2.0 --pkg cairo --pkg gdk-pixbuf-2.0 -d "$vapi" "$gir"
+  printf '%s\n' gio-2.0 cairo gdk-pixbuf-2.0 > "$vapi/librsvg-2.0.deps"
+fi
 printf "[binaries]\nvala = '%s'\n" "$host/bin/valac" > "$work/vala.ini"
 meson setup "$work/build" "$work/src" \
   --cross-file "$host/etc/meson/cross-compilation.conf" --cross-file "$work/vala.ini" \
