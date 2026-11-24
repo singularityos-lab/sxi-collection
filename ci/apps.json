@@ -73,7 +73,7 @@
     "subprojects": [
       {
         "repo": "libsingularity",
-        "commit": "5d6c0344fb333bedf69aeb7792edb4ced0d59459"
+        "commit": "c7419766d06e1505a38c9762aa575a9a715abe36"
       },
       {
         "repo": "singularity-draw",
@@ -167,7 +167,7 @@
     "subprojects": [
       {
         "repo": "libsingularity",
-        "commit": "5d6c0344fb333bedf69aeb7792edb4ced0d59459"
+        "commit": "c7419766d06e1505a38c9762aa575a9a715abe36"
       }
     ]
   },
@@ -185,7 +185,7 @@
     "subprojects": [
       {
         "repo": "libsingularity",
-        "commit": "5d6c0344fb333bedf69aeb7792edb4ced0d59459"
+        "commit": "c7419766d06e1505a38c9762aa575a9a715abe36"
       }
     ]
   },
@@ -221,7 +221,7 @@
     "subprojects": [
       {
         "repo": "libsingularity",
-        "commit": "5d6c0344fb333bedf69aeb7792edb4ced0d59459"
+        "commit": "c7419766d06e1505a38c9762aa575a9a715abe36"
       },
       {
         "repo": "singularity-draw",
