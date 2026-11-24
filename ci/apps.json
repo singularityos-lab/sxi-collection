@@ -15,7 +15,7 @@
     "id": "dev.sinty.browser",
     "name": "Browser",
     "repo": "singularity-browser",
-    "commit": "0d9e7f5de88b3498b0eda98edf0024b9c9906bf8"
+    "commit": "5948d1a62ef8ec04686bfd62c82f94f8aeeafaef"
   },
   {
     "id": "dev.sinty.connections",
@@ -91,7 +91,7 @@
     "id": "dev.sinty.lettere",
     "name": "Lettere",
     "repo": "singularity-lettere",
-    "commit": "3f94f0b699db14fd32bb951296c1ad713883b01c"
+    "commit": "d569f0b2b8184eac6982382995097ff616479b92"
   },
   {
     "id": "dev.sinty.machines",
@@ -109,7 +109,7 @@
     "id": "dev.sinty.messages",
     "name": "Messages",
     "repo": "singularity-messages",
-    "commit": "0c3074e9ae52dc2fb261368f2203e5391a194c77"
+    "commit": "e34c35a3fba62254bdc2544676731ec36f1ea4ee"
   },
   {
     "id": "dev.sinty.montage",
@@ -133,7 +133,7 @@
     "id": "dev.sinty.notes",
     "name": "Notes",
     "repo": "singularity-notes",
-    "commit": "a4681ec7ddd1065a3349d490da6c3fa08c8c94ae"
+    "commit": "2ad477c625c50d66e67c2cf5f6aae9a97c085089"
   },
   {
     "id": "dev.sinty.passwords",
@@ -145,7 +145,7 @@
     "id": "dev.sinty.phone",
     "name": "Phone",
     "repo": "singularity-phone",
-    "commit": "1d486d8834a66c1c7b507cbb1e9257b055fa77d8"
+    "commit": "36a5aed2a76b0f6f77ec831fdde3fb6c2da5768e"
   },
   {
     "id": "dev.sinty.photos",
@@ -251,6 +251,6 @@
     "id": "dev.sinty.write",
     "name": "Write",
     "repo": "singularity-write",
-    "commit": "8a57c582eec7420bb6219f0d942ab260a48a4487"
+    "commit": "ba9c0267c70cbbe061643d6a7001a4048a8cd533"
   }
 ]
