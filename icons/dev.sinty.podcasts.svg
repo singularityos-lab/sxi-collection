@@ -1,49 +1,44 @@
-<svg width="236" height="236" viewBox="0 0 236 236" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="body_pod" x1="78" y1="14" x2="158" y2="146" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="#a78bfa"/>
-<stop offset="45%" stop-color="#7c3aed"/>
-<stop offset="100%" stop-color="#5b21b6"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="236" height="236" viewBox="-0.289655 0.000000 236.579310 235.803838" preserveAspectRatio="none"><defs><filter id="shadow1" x="0" y="0" width="236" height="236" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1f0a4c" flood-opacity="0.45"/></filter></defs><g filter="url(#shadow1)"><g fill="none"><defs><linearGradient id="l2-stand_pod" x1="60" y1="92" x2="176" y2="216" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#7a72a8" />
+<stop offset="100%" stop-color="#3a3358" />
 </linearGradient>
-<linearGradient id="stand_pod" x1="60" y1="92" x2="176" y2="216" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="#7a72a8"/>
-<stop offset="100%" stop-color="#3a3358"/>
+</defs><rect x="70" y="200" width="96" height="16" rx="8" fill="url(#l2-stand_pod)" />
+</g><g fill="none"><defs><linearGradient id="l3-stand_pod" x1="60" y1="92" x2="176" y2="216" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#7a72a8" />
+<stop offset="100%" stop-color="#3a3358" />
 </linearGradient>
-<linearGradient id="ring_pod" x1="78" y1="0" x2="158" y2="0" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="#c4b5fd"/>
-<stop offset="50%" stop-color="#ede9fe"/>
-<stop offset="100%" stop-color="#a78bfa"/>
+</defs><rect x="110" y="170" width="16" height="34" rx="4" fill="url(#l3-stand_pod)" />
+</g><g fill="none"><defs><linearGradient id="l4-stand_pod" x1="60" y1="92" x2="176" y2="216" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#7a72a8" />
+<stop offset="100%" stop-color="#3a3358" />
 </linearGradient>
-<radialGradient id="bloom_pod" cx="98" cy="40" r="110" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="white" stop-opacity="0.38"/>
-<stop offset="100%" stop-color="white" stop-opacity="0"/>
+</defs><path d="M60 90 V116 A58 58 0 0 0 176 116 V90" stroke="url(#l4-stand_pod)" stroke-width="13" stroke-linecap="round" />
+</g><g fill="none"><rect x="78" y="20" width="80" height="132" rx="40" fill="#3b1480" />
+</g><g fill="none"><defs><linearGradient id="l6-body_pod" x1="78" y1="14" x2="158" y2="146" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#a78bfa" />
+<stop offset="45%" stop-color="#7c3aed" />
+<stop offset="100%" stop-color="#5b21b6" />
+</linearGradient>
+</defs><rect x="78" y="14" width="80" height="132" rx="40" fill="url(#l6-body_pod)" />
+</g><defs><clipPath id="rim7"><path d="M118 14H118A40 40 0 0 1 158 54V106A40 40 0 0 1 118 146H118A40 40 0 0 1 78 106V54A40 40 0 0 1 118 14Z" clip-rule="nonzero"/></clipPath><linearGradient id="rim7g0" x1="78" y1="14" x2="138" y2="146" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.200"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.100"/></linearGradient><linearGradient id="rim7g1" x1="78" y1="14" x2="138" y2="146" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.950"/><stop offset="0.45" stop-color="#ffffff" stop-opacity="0.600"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.250"/></linearGradient><linearGradient id="rim7g2" x1="78" y1="14" x2="138" y2="146" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.050"/><stop offset="0.7" stop-color="#ffffff" stop-opacity="0.150"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.420"/></linearGradient></defs><g clip-path="url(#rim7)"><path d="M118 14H118A40 40 0 0 1 158 54V106A40 40 0 0 1 118 146H118A40 40 0 0 1 78 106V54A40 40 0 0 1 118 14Z" fill="none" stroke="url(#rim7g0)" stroke-width="3"/><path d="M118 14H118A40 40 0 0 1 158 54V106A40 40 0 0 1 118 146H118A40 40 0 0 1 78 106V54A40 40 0 0 1 118 14ZM119.68 16.8 H119.68 A40 40 0 0 1 159.68 56.8 V108.8 A40 40 0 0 1 119.68 148.8 H119.68 A40 40 0 0 1 79.68 108.8 V56.8 A40 40 0 0 1 119.68 16.8 Z" fill="url(#rim7g1)" fill-rule="evenodd"/><path d="M118 14H118A40 40 0 0 1 158 54V106A40 40 0 0 1 118 146H118A40 40 0 0 1 78 106V54A40 40 0 0 1 118 14ZM117.04 12.4 H117.04 A40 40 0 0 1 157.04 52.4 V104.4 A40 40 0 0 1 117.04 144.4 H117.04 A40 40 0 0 1 77.04 104.4 V52.4 A40 40 0 0 1 117.04 12.4 Z" fill="url(#rim7g2)" fill-rule="evenodd"/></g><defs><clipPath id="clip8"><path d="M118 14 H118 A40 40 0 0 1 158 54 V106 A40 40 0 0 1 118 146 H118 A40 40 0 0 1 78 106 V54 A40 40 0 0 1 118 14 Z" clip-rule="nonzero"/></clipPath></defs><g clip-path="url(#clip8)"><g fill="none"><g stroke="#2e1065" stroke-opacity="0.45" stroke-width="5" stroke-linecap="round"><line x1="84" y1="38" x2="152" y2="38" />
+</g></g><g fill="none"><g stroke="#2e1065" stroke-opacity="0.45" stroke-width="5" stroke-linecap="round"><line x1="80" y1="52" x2="156" y2="52" />
+</g></g><g fill="none"><g stroke="#2e1065" stroke-opacity="0.45" stroke-width="5" stroke-linecap="round"><line x1="80" y1="66" x2="156" y2="66" />
+</g></g><g fill="none"><g stroke="#2e1065" stroke-opacity="0.45" stroke-width="5" stroke-linecap="round"><line x1="80" y1="80" x2="156" y2="80" />
+</g></g><g fill="none"><g stroke="#2e1065" stroke-opacity="0.45" stroke-width="5" stroke-linecap="round"><line x1="80" y1="94" x2="156" y2="94" />
+</g></g><g fill="none"><defs><linearGradient id="l14-ring_pod" x1="78" y1="0" x2="158" y2="0" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#c4b5fd" />
+<stop offset="50%" stop-color="#ede9fe" />
+<stop offset="100%" stop-color="#a78bfa" />
+</linearGradient>
+</defs><rect x="74" y="108" width="88" height="12" fill="url(#l14-ring_pod)" />
+</g><g fill="none"><rect x="74" y="120" width="88" height="3" fill="#2e1065" fill-opacity="0.35" />
+</g><g fill="none"><defs><radialGradient id="l16-bloom_pod" cx="98" cy="40" r="110" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="white" stop-opacity="0.38" />
+<stop offset="100%" stop-color="white" stop-opacity="0" />
 </radialGradient>
-<clipPath id="clip_pod">
-<rect x="78" y="14" width="80" height="132" rx="40"/>
-</clipPath>
-<filter id="shadow_pod" x="0" y="0" width="236" height="236" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1f0a4c" flood-opacity="0.45"/></filter>
-</defs>
-<g filter="url(#shadow_pod)">
-<rect x="70" y="200" width="96" height="16" rx="8" fill="url(#stand_pod)"/>
-<rect x="110" y="170" width="16" height="34" rx="4" fill="url(#stand_pod)"/>
-<path d="M60 90 V116 A58 58 0 0 0 176 116 V90" stroke="url(#stand_pod)" stroke-width="13" stroke-linecap="round"/>
-<rect x="78" y="20" width="80" height="132" rx="40" fill="#3b1480"/>
-<rect x="78" y="14" width="80" height="132" rx="40" fill="url(#body_pod)"/>
-<g clip-path="url(#clip_pod)">
-<g stroke="#2e1065" stroke-opacity="0.45" stroke-width="5" stroke-linecap="round">
-<line x1="84" y1="38" x2="152" y2="38"/>
-<line x1="80" y1="52" x2="156" y2="52"/>
-<line x1="80" y1="66" x2="156" y2="66"/>
-<line x1="80" y1="80" x2="156" y2="80"/>
-<line x1="80" y1="94" x2="156" y2="94"/>
-</g>
-<rect x="74" y="108" width="88" height="12" fill="url(#ring_pod)"/>
-<rect x="74" y="120" width="88" height="3" fill="#2e1065" fill-opacity="0.35"/>
-<rect x="74" y="0" width="90" height="150" fill="url(#bloom_pod)"/>
-</g>
-<circle cx="60" cy="90" r="9" fill="#7a72a8"/>
-<circle cx="176" cy="90" r="9" fill="#7a72a8"/>
-<circle cx="60" cy="90" r="3.5" fill="#a78bfa"/>
-<circle cx="176" cy="90" r="3.5" fill="#a78bfa"/>
-</g>
-</svg>
+</defs><rect x="74" y="0" width="90" height="150" fill="url(#l16-bloom_pod)" />
+</g></g><g fill="none"><circle cx="60" cy="90" r="9" fill="#7a72a8" />
+</g><g fill="none"><circle cx="176" cy="90" r="9" fill="#7a72a8" />
+</g><g fill="none"><circle cx="60" cy="90" r="3.5" fill="#a78bfa" />
+</g><g fill="none"><circle cx="176" cy="90" r="3.5" fill="#a78bfa" />
+</g></g></svg>

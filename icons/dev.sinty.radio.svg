@@ -1,84 +1,73 @@
-<svg width="236" height="236" viewBox="0 0 236 236" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="body_radio" x1="118" y1="76" x2="118" y2="202" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="#ff8a4c"/>
-<stop offset="55%" stop-color="#f05a2c"/>
-<stop offset="100%" stop-color="#d23d1c"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="236" height="236" viewBox="0.194690 -0.075000 235.610619 236.218182" preserveAspectRatio="none"><g fill="none"><line x1="152" y1="84" x2="194" y2="14" stroke="#6b7480" stroke-width="7" stroke-linecap="round" transform="translate(2,3)" />
+</g><g fill="none"><defs><linearGradient id="l2-antenna_radio" x1="150" y1="80" x2="198" y2="14" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#8d96a3" />
+<stop offset="50%" stop-color="#e3e8ee" />
+<stop offset="100%" stop-color="#a7b0bc" />
 </linearGradient>
-<linearGradient id="depth_radio" x1="118" y1="84" x2="118" y2="210" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="#a82e15"/>
-<stop offset="100%" stop-color="#7a1f0e"/>
+</defs><line x1="152" y1="84" x2="194" y2="14" stroke="url(#l2-antenna_radio)" stroke-width="6" stroke-linecap="round" />
+</g><g fill="none"><defs><radialGradient id="l3-tip_radio" cx="194" cy="12" r="10" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#ffffff" />
+<stop offset="100%" stop-color="#9aa3af" />
+</radialGradient>
+</defs><circle cx="194" cy="13" r="8" fill="url(#l3-tip_radio)" />
+</g><g fill="none"><defs><linearGradient id="l4-depth_radio" x1="118" y1="84" x2="118" y2="210" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#a82e15" />
+<stop offset="100%" stop-color="#7a1f0e" />
 </linearGradient>
-<radialGradient id="bloom_radio" cx="70" cy="84" r="150" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="white" stop-opacity="0.32"/>
-<stop offset="100%" stop-color="white" stop-opacity="0"/>
-</radialGradient>
-<linearGradient id="antenna_radio" x1="150" y1="80" x2="198" y2="14" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="#8d96a3"/>
-<stop offset="50%" stop-color="#e3e8ee"/>
-<stop offset="100%" stop-color="#a7b0bc"/>
+</defs><rect x="14" y="84" width="208" height="124" rx="28" fill="url(#l4-depth_radio)" />
+</g><g fill="none"><defs><linearGradient id="l5-body_radio" x1="118" y1="76" x2="118" y2="202" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#ff8a4c" />
+<stop offset="55%" stop-color="#f05a2c" />
+<stop offset="100%" stop-color="#d23d1c" />
 </linearGradient>
-<radialGradient id="tip_radio" cx="194" cy="12" r="10" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="#ffffff"/>
-<stop offset="100%" stop-color="#9aa3af"/>
+<filter id="l5-shadow_radio" x="0" y="60" width="236" height="170" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#591405" flood-opacity="0.45" /></filter>
+</defs><rect x="14" y="76" width="208" height="124" rx="28" fill="url(#l5-body_radio)" filter="url(#l5-shadow_radio)" />
+</g><defs><clipPath id="clip6"><path d="M42 76 H194 A28 28 0 0 1 222 104 V172 A28 28 0 0 1 194 200 H42 A28 28 0 0 1 14 172 V104 A28 28 0 0 1 42 76 Z" clip-rule="nonzero"/></clipPath></defs><g clip-path="url(#clip6)"><g fill="none"><defs><radialGradient id="l7-bloom_radio" cx="70" cy="84" r="150" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="white" stop-opacity="0.32" />
+<stop offset="100%" stop-color="white" stop-opacity="0" />
 </radialGradient>
-<radialGradient id="grille_radio" cx="72" cy="128" r="46" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="#4a2219"/>
-<stop offset="100%" stop-color="#2a100b"/>
+</defs><rect x="14" y="76" width="208" height="124" fill="url(#l7-bloom_radio)" />
+</g><g fill="none"><rect x="14" y="76" width="208" height="10" fill="white" fill-opacity="0.18" />
+</g><defs><clipPath id="rim9"><path d="M42 76H194A28 28 0 0 1 222 104V172A28 28 0 0 1 194 200H42A28 28 0 0 1 14 172V104A28 28 0 0 1 42 76Z" clip-rule="nonzero"/></clipPath><linearGradient id="rim9g0" x1="14" y1="76" x2="170" y2="200" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.200"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.100"/></linearGradient><linearGradient id="rim9g1" x1="14" y1="76" x2="170" y2="200" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.950"/><stop offset="0.45" stop-color="#ffffff" stop-opacity="0.600"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.250"/></linearGradient><linearGradient id="rim9g2" x1="14" y1="76" x2="170" y2="200" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" stop-opacity="0.050"/><stop offset="0.7" stop-color="#ffffff" stop-opacity="0.150"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.420"/></linearGradient></defs><g clip-path="url(#rim9)"><path d="M42 76H194A28 28 0 0 1 222 104V172A28 28 0 0 1 194 200H42A28 28 0 0 1 14 172V104A28 28 0 0 1 42 76Z" fill="none" stroke="url(#rim9g0)" stroke-width="3"/><path d="M42 76H194A28 28 0 0 1 222 104V172A28 28 0 0 1 194 200H42A28 28 0 0 1 14 172V104A28 28 0 0 1 42 76ZM43.68 78.8 H195.68 A28 28 0 0 1 223.68 106.8 V174.8 A28 28 0 0 1 195.68 202.8 H43.68 A28 28 0 0 1 15.68 174.8 V106.8 A28 28 0 0 1 43.68 78.8 Z" fill="url(#rim9g1)" fill-rule="evenodd"/><path d="M42 76H194A28 28 0 0 1 222 104V172A28 28 0 0 1 194 200H42A28 28 0 0 1 14 172V104A28 28 0 0 1 42 76ZM41.04 74.4 H193.04 A28 28 0 0 1 221.04 102.4 V170.4 A28 28 0 0 1 193.04 198.4 H41.04 A28 28 0 0 1 13.04 170.4 V102.4 A28 28 0 0 1 41.04 74.4 Z" fill="url(#rim9g2)" fill-rule="evenodd"/></g></g><g fill="none"><circle cx="76" cy="139" r="46" fill="#b8391b" />
+</g><g fill="none"><defs><radialGradient id="l11-grille_radio" cx="72" cy="128" r="46" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#4a2219" />
+<stop offset="100%" stop-color="#2a100b" />
 </radialGradient>
-<linearGradient id="dial_radio" x1="164" y1="98" x2="164" y2="150" gradientUnits="userSpaceOnUse">
-<stop offset="0%" stop-color="#fff8e8"/>
-<stop offset="100%" stop-color="#f3dfb8"/>
-</linearGradient>
-<radialGradient id="knob_radio" cx="0" cy="0" r="1" gradientUnits="objectBoundingBox">
-<stop offset="0%" stop-color="#fff4dc"/>
-<stop offset="100%" stop-color="#d9bf8c"/>
-</radialGradient>
-<pattern id="holes_radio" x="0" y="0" width="12" height="12" patternUnits="userSpaceOnUse">
-<circle cx="6" cy="6" r="2.6" fill="#120604"/>
+</defs><circle cx="76" cy="139" r="43" fill="url(#l11-grille_radio)" />
+</g><defs><clipPath id="clip12"><path d="M36 139 A40 40 0 1 0 116 139 A40 40 0 1 0 36 139 Z" clip-rule="nonzero"/></clipPath></defs><g clip-path="url(#clip12)"><g fill="none"><defs><pattern id="l13-holes_radio" x="0" y="0" width="12" height="12" patternUnits="userSpaceOnUse">
+<circle cx="6" cy="6" r="2.6" fill="#120604" />
 </pattern>
-<clipPath id="grille_clip_radio">
-<circle cx="76" cy="139" r="40"/>
-</clipPath>
-<filter id="shadow_radio" x="0" y="60" width="236" height="170" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#591405" flood-opacity="0.45"/></filter>
-<clipPath id="body_clip_radio">
-<rect x="14" y="76" width="208" height="124" rx="28"/>
-</clipPath>
-</defs>
-<line x1="152" y1="84" x2="194" y2="14" stroke="#6b7480" stroke-width="7" stroke-linecap="round" transform="translate(2,3)"/>
-<line x1="152" y1="84" x2="194" y2="14" stroke="url(#antenna_radio)" stroke-width="6" stroke-linecap="round"/>
-<circle cx="194" cy="13" r="8" fill="url(#tip_radio)"/>
-<rect x="14" y="84" width="208" height="124" rx="28" fill="url(#depth_radio)"/>
-<rect x="14" y="76" width="208" height="124" rx="28" fill="url(#body_radio)" filter="url(#shadow_radio)"/>
-<g clip-path="url(#body_clip_radio)">
-<rect x="14" y="76" width="208" height="124" fill="url(#bloom_radio)"/>
-<rect x="14" y="76" width="208" height="10" fill="white" fill-opacity="0.18"/>
-</g>
-<circle cx="76" cy="139" r="46" fill="#b8391b"/>
-<circle cx="76" cy="139" r="43" fill="url(#grille_radio)"/>
-<g clip-path="url(#grille_clip_radio)">
-<rect x="30" y="93" width="92" height="92" fill="url(#holes_radio)" fill-opacity="0.9"/>
-<circle cx="62" cy="120" r="30" fill="white" fill-opacity="0.08"/>
-</g>
-<circle cx="76" cy="139" r="10" fill="#f05a2c"/>
-<circle cx="76" cy="139" r="5" fill="#ffb08a"/>
-<rect x="132" y="98" width="68" height="50" rx="10" fill="#9e2c13"/>
-<rect x="134" y="100" width="64" height="46" rx="8" fill="url(#dial_radio)"/>
-<g stroke="#8a6a3c" stroke-width="2" stroke-linecap="round">
-<line x1="142" y1="112" x2="142" y2="122"/>
-<line x1="150" y1="112" x2="150" y2="118"/>
-<line x1="158" y1="112" x2="158" y2="122"/>
-<line x1="166" y1="112" x2="166" y2="118"/>
-<line x1="174" y1="112" x2="174" y2="122"/>
-<line x1="182" y1="112" x2="182" y2="118"/>
-<line x1="190" y1="112" x2="190" y2="122"/>
-<line x1="140" y1="132" x2="192" y2="132" stroke-opacity="0.6"/>
-</g>
-<line x1="170" y1="106" x2="170" y2="140" stroke="#e0301a" stroke-width="3" stroke-linecap="round"/>
-<circle cx="148" cy="174" r="12" fill="#8f2812"/>
-<circle cx="148" cy="172" r="11" fill="url(#knob_radio)"/>
-<line x1="148" y1="165" x2="148" y2="171" stroke="#8a6a3c" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="184" cy="174" r="12" fill="#8f2812"/>
-<circle cx="184" cy="172" r="11" fill="url(#knob_radio)"/>
-<line x1="189" y1="167" x2="185" y2="171" stroke="#8a6a3c" stroke-width="2.5" stroke-linecap="round"/>
-</svg>
+</defs><rect x="30" y="93" width="92" height="92" fill="url(#l13-holes_radio)" fill-opacity="0.9" />
+</g><g fill="none"><circle cx="62" cy="120" r="30" fill="white" fill-opacity="0.08" />
+</g></g><g fill="none"><circle cx="76" cy="139" r="10" fill="#f05a2c" />
+</g><g fill="none"><circle cx="76" cy="139" r="5" fill="#ffb08a" />
+</g><g fill="none"><rect x="132" y="98" width="68" height="50" rx="10" fill="#9e2c13" />
+</g><g fill="none"><defs><linearGradient id="l18-dial_radio" x1="164" y1="98" x2="164" y2="150" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#fff8e8" />
+<stop offset="100%" stop-color="#f3dfb8" />
+</linearGradient>
+</defs><rect x="134" y="100" width="64" height="46" rx="8" fill="url(#l18-dial_radio)" />
+</g><g fill="none"><g stroke="#8a6a3c" stroke-width="2" stroke-linecap="round"><line x1="142" y1="112" x2="142" y2="122" />
+</g></g><g fill="none"><g stroke="#8a6a3c" stroke-width="2" stroke-linecap="round"><line x1="150" y1="112" x2="150" y2="118" />
+</g></g><g fill="none"><g stroke="#8a6a3c" stroke-width="2" stroke-linecap="round"><line x1="158" y1="112" x2="158" y2="122" />
+</g></g><g fill="none"><g stroke="#8a6a3c" stroke-width="2" stroke-linecap="round"><line x1="166" y1="112" x2="166" y2="118" />
+</g></g><g fill="none"><g stroke="#8a6a3c" stroke-width="2" stroke-linecap="round"><line x1="174" y1="112" x2="174" y2="122" />
+</g></g><g fill="none"><g stroke="#8a6a3c" stroke-width="2" stroke-linecap="round"><line x1="182" y1="112" x2="182" y2="118" />
+</g></g><g fill="none"><g stroke="#8a6a3c" stroke-width="2" stroke-linecap="round"><line x1="190" y1="112" x2="190" y2="122" />
+</g></g><g fill="none"><g stroke="#8a6a3c" stroke-width="2" stroke-linecap="round"><line x1="140" y1="132" x2="192" y2="132" stroke-opacity="0.6" />
+</g></g><g fill="none"><line x1="170" y1="106" x2="170" y2="140" stroke="#e0301a" stroke-width="3" stroke-linecap="round" />
+</g><g fill="none"><circle cx="148" cy="174" r="12" fill="#8f2812" />
+</g><g fill="none"><defs><radialGradient id="l29-knob_radio" cx="0" cy="0" r="1" gradientUnits="objectBoundingBox">
+<stop offset="0%" stop-color="#fff4dc" />
+<stop offset="100%" stop-color="#d9bf8c" />
+</radialGradient>
+</defs><circle cx="148" cy="172" r="11" fill="url(#l29-knob_radio)" />
+</g><g fill="none"><line x1="148" y1="165" x2="148" y2="171" stroke="#8a6a3c" stroke-width="2.5" stroke-linecap="round" />
+</g><g fill="none"><circle cx="184" cy="174" r="12" fill="#8f2812" />
+</g><g fill="none"><defs><radialGradient id="l32-knob_radio" cx="0" cy="0" r="1" gradientUnits="objectBoundingBox">
+<stop offset="0%" stop-color="#fff4dc" />
+<stop offset="100%" stop-color="#d9bf8c" />
+</radialGradient>
+</defs><circle cx="184" cy="172" r="11" fill="url(#l32-knob_radio)" />
+</g><g fill="none"><line x1="189" y1="167" x2="185" y2="171" stroke="#8a6a3c" stroke-width="2.5" stroke-linecap="round" />
+</g></svg>
