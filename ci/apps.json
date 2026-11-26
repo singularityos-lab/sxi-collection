@@ -85,7 +85,7 @@
     "id": "dev.sinty.ledstudio",
     "name": "LED Studio",
     "repo": "singularity-ledstudio",
-    "commit": "8fa8d68f01875e65e4cc6d737b4636ec20c137ce"
+    "commit": "ba10936cb3dc47923a9d995483dfb511c53f157a"
   },
   {
     "id": "dev.sinty.lettere",
@@ -145,7 +145,7 @@
     "id": "dev.sinty.phone",
     "name": "Phone",
     "repo": "singularity-phone",
-    "commit": "ab841559fd7a352aec482a1414387c6585f0099d"
+    "commit": "7161e89b44f338df721161471679a5c290d42029"
   },
   {
     "id": "dev.sinty.photos",
